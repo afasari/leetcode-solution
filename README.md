@@ -1,5 +1,5 @@
 # Personal leetcode solution
 
-|no|problem|solved|
+|no|problem|solution|
 | -| -| -|
-|1|two sum|php, go|
+|0001|two sum|go|
