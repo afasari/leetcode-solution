@@ -11,8 +11,8 @@
 |0007|reverse integer|medium|go,php|
 |0008|string to integer|medium|go,php|
 |0009|palindrome number|easy|go,php|
-|0010|regular expression matching|hard|python3|
-|0011|container with most water|medium|go,php,rust,python3|
+|0010|regular expression matching|hard|python|
+|0011|container with most water|medium|go,php,rust,python|
 |0012|integer to roman|medium|go,php,rust|
 |0013|roman to integer|easy|go,php,rust|
 |0014|longest common prefix|easy|go,php|
