@@ -17,7 +17,7 @@
 |0013|roman to integer|easy|go,php,rust|
 |0014|longest common prefix|easy|go,php|
 |0015|3 sum|medium|go,php|
-|0016||3 sum closest|go,php|
+|0016|3 sum closest|medium|go,php|
 |0017|letter combination of a phone number|medium|go,php|
 |0018|4 sum|medium|go,php|
 |0019|remove nth node from end of list|medium|go|
