@@ -2,17 +2,17 @@
 
 |no|problem|difficulty|solution|
 | -| -| -| -|
-|0001|two sum|easy|go, php, rust|
+|0001|two sum|easy|go,php,rust|
 |0002|add two number|medium|go,php|
 |0003|longest substring without repeating characters|medium|go,php|
 |0004|median of two sorted arrays|hard|go,php|
-|0005|longest palindromic substring|medium|go,php, rust|
+|0005|longest palindromic substring|medium|go,php,rust|
 |0006|zigzah conversion|medium|go,php|
 |0007|reverse integer|medium|go,php|
 |0008|string to integer|medium|go,php|
 |0009|palindrome number|easy|go,php|
 |0010|regular expression matching|hard|python3|
-|0011|container with most water|medium|go,php, rust, python3|
+|0011|container with most water|medium|go,php,rust,python3|
 |0012|integer to roman|medium|go,php,rust|
 |0013|roman to integer|easy|go,php,rust|
 |0014|longest common prefix|easy|go,php|
