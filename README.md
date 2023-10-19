@@ -28,3 +28,7 @@
 |0024|swap nodes in pairs|medium|go|
 |0025|reverse nodes in k-group|hard|go|
 |0026|reverse duplicates from sorted array|easy|go|
+|0027|remove element|easy|go|
+|0028|find the index of the first occurence in a string|easy|go,php,rust|
+|0029|divide two integers|medium|go|
+|0119|pascal's triangle II|easy|go|
