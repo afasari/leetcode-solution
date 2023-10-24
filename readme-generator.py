@@ -48,9 +48,10 @@ def generate_markdown_table(questions):
   return table
 
 class Question:
-  def __init__(self, index, title):
+  def __init__(self, index, title, title_url):
     self.index = index
     self.title = title
+    self.title_url = title_url
     self.solutions = {}
 
   def add_solution(self, language, url):
@@ -63,7 +64,8 @@ class Question:
     php_url = "[php](%s)" % (self.solutions['php']) if 'php' in self.solutions and os.path.exists(self.solutions['php']) else "-"
     rust_url = "[rust](%s)" % (self.solutions['rust']) if 'rust' in self.solutions and os.path.exists(self.solutions['rust']) else "-"
     javascript_url = "[javascript](%s)" % (self.solutions['javascript']) if 'javascript' in self.solutions and os.path.exists(self.solutions['javascript']) else "-"
-    markdown = "|%s|%s|%s|%s|%s|%s|%s|%s|" % (self.index, self.title, java_url, python_url, go_url, php_url, rust_url, javascript_url)
+    title_url = "[%s](%s/README.md)" % (self.title, self.title_url)
+    markdown = "|%s|%s|%s|%s|%s|%s|%s|%s|" % (self.index, title_url, java_url, python_url, go_url, php_url, rust_url, javascript_url)
     return markdown
 
 if __name__ == "__main__":
@@ -79,7 +81,7 @@ if __name__ == "__main__":
      if valid_filename(filename):
       index, title, url = format_filename(filename, language)
       if index not in questions:
-        questions[index] = Question(index, title)
+        questions[index] = Question(index, title, filename)
       questions[index].add_solution(language, url)
     sortedQuestions = collections.OrderedDict(sorted(questions.items()))
     logger.info('Finish generate question list, there are %d questions' % (len(sortedQuestions)))  
