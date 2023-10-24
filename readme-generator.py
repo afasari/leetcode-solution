@@ -69,8 +69,12 @@ class Question:
     difficulty = ''
     with open('./'+self.title_url+'/README.md') as f:
      readme_problem = f.readline()
-     reg_str = "<h3>(.*?)</h3>"
-     difficulty = re.findall(reg_str, readme_problem)[0]
+     difficulty_reg = "<h3>(.*?)</h3>"
+     problem_url = re.search(r'href=[\'"]?([^\'" >]+)', readme_problem)
+     if problem_url:
+      difficulty = "[%s](%s)" % (re.findall(difficulty_reg, readme_problem)[0], problem_url.group(1))
+     else:
+      difficulty = "%s" % (re.findall(difficulty_reg, readme_problem)[0])
     markdown = "|%s|%s|%s|%s|%s|%s|%s|%s|%s|" % (self.index, title_url, difficulty, java_url, python_url, go_url, php_url, rust_url, javascript_url)
     return markdown
 
