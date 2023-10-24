@@ -6,6 +6,8 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
+{%-- COUNT --%}
+
 {%-- TABLE --%}
 
 ## Readme Generator
@@ -18,4 +20,4 @@ python3 readme-generator.py
 
 ## Authors
 
-* **Ba'tiar Afas Rahmamulia** - *Initial work*
+* **Ba'tiar Afas Rahmamulia**

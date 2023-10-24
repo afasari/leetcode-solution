@@ -2,7 +2,7 @@
 import os
 import logging
 import collections
-import json
+import re
 
 # - config logger
 loggerFormat = '%(asctime)-15s %(message)s'
@@ -13,6 +13,7 @@ logger.setLevel(logging.INFO)
 # - Config
 choosedLanguages = ['python3', 'java', 'go', 'rust', 'php', 'javascript']
 TEMPLATE_TABLE_TAG = "{%-- TABLE --%}"
+TEMPLATE_COUNT_TAG = "{%-- COUNT --%}"
 LANGUAGES = {
   'python3': 'py',
   'java': 'java',
@@ -23,7 +24,7 @@ LANGUAGES = {
 }
 
 def valid_filename(filename):
- if filename == '.git' or filename == 'readme-generator.py' or filename == 'README.md' or filename == 'README-TEMPLATE.md' :
+ if filename == '.git' or filename == '.github' or filename == 'readme-generator.py' or filename == 'README.md' or filename == 'README-TEMPLATE.md' :
    return False
  return True
 
@@ -38,12 +39,11 @@ def format_filename(filename, language):
 def generate_markdown_table(questions):
   logger.info('Starting generate markdown table.')
   table = """
-  | ID   | Title | Java | Python | Golang | PHP | Rust | Javascript |
-  | :----: | :----- | :----: | :------: | :------: | :------: | :------: | :------: |
+  | ID   | Title | Difficulty | Java | Python | Golang | PHP | Rust | Javascript |
+  | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: |
   """
   items = list(map(lambda item: item.to_markdown(), questions.values()))
   table = table + "\n".join(items)
-#   logger.info("%s" % table)
   logger.info('Finish generate markdown table.')
   return table
 
@@ -65,7 +65,13 @@ class Question:
     rust_url = "[rust](%s)" % (self.solutions['rust']) if 'rust' in self.solutions and os.path.exists(self.solutions['rust']) else "-"
     javascript_url = "[javascript](%s)" % (self.solutions['javascript']) if 'javascript' in self.solutions and os.path.exists(self.solutions['javascript']) else "-"
     title_url = "[%s](%s/README.md)" % (self.title, self.title_url)
-    markdown = "|%s|%s|%s|%s|%s|%s|%s|%s|" % (self.index, title_url, java_url, python_url, go_url, php_url, rust_url, javascript_url)
+
+    difficulty = ''
+    with open('./'+self.title_url+'/README.md') as f:
+     readme_problem = f.readline()
+     reg_str = "<h3>(.*?)</h3>"
+     difficulty = re.findall(reg_str, readme_problem)[0]
+    markdown = "|%s|%s|%s|%s|%s|%s|%s|%s|%s|" % (self.index, title_url, difficulty, java_url, python_url, go_url, php_url, rust_url, javascript_url)
     return markdown
 
 if __name__ == "__main__":
@@ -77,7 +83,7 @@ if __name__ == "__main__":
     
     folderName = "%s" % (os.path.abspath(os.path.dirname(__file__)))
     for filename in os.listdir(folderName):
-    #   print(filename, language)
+     
      if valid_filename(filename):
       index, title, url = format_filename(filename, language)
       if index not in questions:
@@ -85,18 +91,20 @@ if __name__ == "__main__":
       questions[index].add_solution(language, url)
     sortedQuestions = collections.OrderedDict(sorted(questions.items()))
     logger.info('Finish generate question list, there are %d questions' % (len(sortedQuestions)))  
-    # print(sortedQuestions)
-  # - Read template and generate README.md
+    
+    # - Read template and generate README.md
     templatePath = "%s/%s" % (os.path.abspath(os.path.dirname(__file__)), 'README-template.md')
     readmePath = "%s/%s" % (os.path.abspath(os.path.dirname(__file__)), 'README.md')
-    # print(templatePath, readmePath)
+
     with open('README-template.md', 'r') as template, open('README.md', 'w') as f:
       logger.info('Starting write file')
       for line in template.readlines():
-        if TEMPLATE_TABLE_TAG in line: 
-          print('match')
+        if TEMPLATE_TABLE_TAG in line:
           table = generate_markdown_table(sortedQuestions)
           f.write(table)
+        elif TEMPLATE_COUNT_TAG in line:
+          count = 'Problem totals: %s' % len(sortedQuestions)
+          f.write(count)
         else:
           f.write(line)
     logger.info('Finished!')
