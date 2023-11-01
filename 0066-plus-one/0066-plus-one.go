@@ -3,13 +3,8 @@ func plusOne(digits []int) []int {
     
     if digits[ld-1] <9 {
         digits[ld-1] +=1
-    } else {
-//         digits[ld-1] = 0
-        
-//         if ld == 1{
-//             return append([]int{1}, digits...)
-//         }
-        
+        return digits
+    } 
         for i:= ld-1; i >= 0; i--{
             inc := digits[i] 
             
@@ -23,8 +18,6 @@ func plusOne(digits []int) []int {
                 digits = append([]int{1}, digits...)
             }
         }
-        
-    }
     
     return digits
     
