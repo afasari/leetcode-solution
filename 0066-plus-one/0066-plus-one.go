@@ -13,12 +13,12 @@ func plusOne(digits []int) []int {
         for i:= ld-2; i >= 0; i--{
             inc := digits[i] 
             
-            if inc == 9{
-                digits[i] = 0
-            } else{
+            if inc != 9{
                 digits[i] += 1
                 break
             }
+            
+            digits[i] = 0
             if i == 0{
                 digits = append([]int{1}, digits...)
             }
