@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 32
+Problem totals: 33
 
   | ID   | Title | Difficulty | Java | Python | Golang | PHP | Rust | Javascript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: |
@@ -40,6 +40,7 @@ Problem totals: 32
 |0028|[find the index of the first occurrence in a string](0028-find-the-index-of-the-first-occurrence-in-a-string/README.md)|[Easy](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)|-|-|[go](./0028-find-the-index-of-the-first-occurrence-in-a-string/0028-find-the-index-of-the-first-occurrence-in-a-string.go)|[php](./0028-find-the-index-of-the-first-occurrence-in-a-string/0028-find-the-index-of-the-first-occurrence-in-a-string.php)|[rust](./0028-find-the-index-of-the-first-occurrence-in-a-string/0028-find-the-index-of-the-first-occurrence-in-a-string.rs)|-|
 |0029|[divide two integers](0029-divide-two-integers/README.md)|[Medium](https://leetcode.com/problems/divide-two-integers/)|-|-|[go](./0029-divide-two-integers/0029-divide-two-integers.go)|-|-|-|
 |0035|[search insert position](0035-search-insert-position/README.md)|[Easy](https://leetcode.com/problems/search-insert-position/)|-|-|[go](./0035-search-insert-position/0035-search-insert-position.go)|-|-|-|
+|0058|[length of last word](0058-length-of-last-word/README.md)|[Easy](https://leetcode.com/problems/length-of-last-word/)|-|-|[go](./0058-length-of-last-word/0058-length-of-last-word.go)|-|-|-|
 |0066|[plus one](0066-plus-one/README.md)|[Easy](https://leetcode.com/problems/plus-one/)|-|-|[go](./0066-plus-one/0066-plus-one.go)|-|-|-|
 |0119|[pascals triangle ii](0119-pascals-triangle-ii/README.md)|[Easy](https://leetcode.com/problems/pascals-triangle-ii/)|-|-|[go](./0119-pascals-triangle-ii/0119-pascals-triangle-ii.go)|-|-|-|
 ## Readme Generator
