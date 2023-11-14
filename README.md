@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 36
+Problem totals: 37
 
   | ID   | Title | Difficulty | Java | Python | Golang | PHP | Rust | Javascript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: |
@@ -45,6 +45,7 @@ Problem totals: 36
 |0067|[add binary](0067-add-binary/README.md)|[Easy](https://leetcode.com/problems/add-binary/)|-|-|[go](./0067-add-binary/0067-add-binary.go)|-|-|-|
 |0069|[sqrtx](0069-sqrtx/README.md)|[Easy](https://leetcode.com/problems/sqrtx/)|-|-|[go](./0069-sqrtx/0069-sqrtx.go)|-|-|-|
 |0070|[climbing stairs](0070-climbing-stairs/README.md)|[Easy](https://leetcode.com/problems/climbing-stairs/)|-|-|[go](./0070-climbing-stairs/0070-climbing-stairs.go)|-|[rust](./0070-climbing-stairs/0070-climbing-stairs.rs)|-|
+|0083|[remove duplicates from sorted list](0083-remove-duplicates-from-sorted-list/README.md)|[Easy](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|-|-|-|-|-|[javascript](./0083-remove-duplicates-from-sorted-list/0083-remove-duplicates-from-sorted-list.js)|
 |0119|[pascals triangle ii](0119-pascals-triangle-ii/README.md)|[Easy](https://leetcode.com/problems/pascals-triangle-ii/)|-|-|[go](./0119-pascals-triangle-ii/0119-pascals-triangle-ii.go)|-|-|-|
 ## Readme Generator
 
