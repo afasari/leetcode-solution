@@ -104,7 +104,7 @@ if __name__ == "__main__":
       logger.info('Starting write file')
       for line in template.readlines():
         if TEMPLATE_TABLE_TAG in line:
-          table = generate_markdown_table(sortedQuestions)
+          table = generate_markdown_table(sortedQuestions) + "\n"
           f.write(table)
         elif TEMPLATE_COUNT_TAG in line:
           count = 'Problem totals: %s' % len(sortedQuestions)
