@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 39
+Problem totals: 41
 
   | ID   | Title | Difficulty | Java | Python | Golang | PHP | Rust | Javascript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: |
@@ -48,7 +48,9 @@ Problem totals: 39
 |0083|[remove duplicates from sorted list](0083-remove-duplicates-from-sorted-list/README.md)|[Easy](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|-|-|-|-|-|[javascript](./0083-remove-duplicates-from-sorted-list/0083-remove-duplicates-from-sorted-list.js)|
 |0088|[merge sorted array](0088-merge-sorted-array/README.md)|[Easy](https://leetcode.com/problems/merge-sorted-array/)|-|-|[go](./0088-merge-sorted-array/0088-merge-sorted-array.go)|-|-|-|
 |0100|[same tree](0100-same-tree/README.md)|[Easy](https://leetcode.com/problems/same-tree/)|-|-|[go](./0100-same-tree/0100-same-tree.go)|-|-|-|
+|0118|[pascals triangle](0118-pascals-triangle/README.md)|[Easy](https://leetcode.com/problems/pascals-triangle/)|-|-|[go](./0118-pascals-triangle/0118-pascals-triangle.go)|-|-|-|
 |0119|[pascals triangle ii](0119-pascals-triangle-ii/README.md)|[Easy](https://leetcode.com/problems/pascals-triangle-ii/)|-|-|[go](./0119-pascals-triangle-ii/0119-pascals-triangle-ii.go)|-|-|-|
+|0121|[best time to buy and sell stock](0121-best-time-to-buy-and-sell-stock/README.md)|[Easy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|-|-|[go](./0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.go)|-|-|-|
 
 ## Readme Generator
 
