@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 41
+Problem totals: 43
 
   | ID   | Title | Difficulty | Java | Python | Golang | PHP | Rust | Javascript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: |
@@ -39,6 +39,7 @@ Problem totals: 41
 |0027|[remove element](0027-remove-element/README.md)|[Easy](https://leetcode.com/problems/remove-element/)|-|-|[go](./0027-remove-element/0027-remove-element.go)|-|-|-|
 |0028|[find the index of the first occurrence in a string](0028-find-the-index-of-the-first-occurrence-in-a-string/README.md)|[Easy](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)|-|-|[go](./0028-find-the-index-of-the-first-occurrence-in-a-string/0028-find-the-index-of-the-first-occurrence-in-a-string.go)|[php](./0028-find-the-index-of-the-first-occurrence-in-a-string/0028-find-the-index-of-the-first-occurrence-in-a-string.php)|[rust](./0028-find-the-index-of-the-first-occurrence-in-a-string/0028-find-the-index-of-the-first-occurrence-in-a-string.rs)|-|
 |0029|[divide two integers](0029-divide-two-integers/README.md)|[Medium](https://leetcode.com/problems/divide-two-integers/)|-|-|[go](./0029-divide-two-integers/0029-divide-two-integers.go)|-|-|-|
+|0031|[next permutation](0031-next-permutation/README.md)|[Medium](https://leetcode.com/problems/next-permutation/)|-|-|[go](./0031-next-permutation/0031-next-permutation.go)|-|-|-|
 |0035|[search insert position](0035-search-insert-position/README.md)|[Easy](https://leetcode.com/problems/search-insert-position/)|-|-|[go](./0035-search-insert-position/0035-search-insert-position.go)|-|-|-|
 |0058|[length of last word](0058-length-of-last-word/README.md)|[Easy](https://leetcode.com/problems/length-of-last-word/)|-|-|[go](./0058-length-of-last-word/0058-length-of-last-word.go)|-|-|-|
 |0066|[plus one](0066-plus-one/README.md)|[Easy](https://leetcode.com/problems/plus-one/)|-|-|[go](./0066-plus-one/0066-plus-one.go)|-|-|-|
@@ -51,6 +52,7 @@ Problem totals: 41
 |0118|[pascals triangle](0118-pascals-triangle/README.md)|[Easy](https://leetcode.com/problems/pascals-triangle/)|-|-|[go](./0118-pascals-triangle/0118-pascals-triangle.go)|-|-|-|
 |0119|[pascals triangle ii](0119-pascals-triangle-ii/README.md)|[Easy](https://leetcode.com/problems/pascals-triangle-ii/)|-|-|[go](./0119-pascals-triangle-ii/0119-pascals-triangle-ii.go)|-|-|-|
 |0121|[best time to buy and sell stock](0121-best-time-to-buy-and-sell-stock/README.md)|[Easy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|-|-|[go](./0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.go)|-|-|-|
+|0136|[single number](0136-single-number/README.md)|[Easy](https://leetcode.com/problems/single-number/)|-|-|[go](./0136-single-number/0136-single-number.go)|-|-|-|
 
 ## Readme Generator
 
