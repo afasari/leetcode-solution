@@ -1,24 +1,38 @@
 func mergeAlternately(word1 string, word2 string) string {
-    l1 := len(word1)
-    l2 := len(word2)
+//     l1 := len(word1)
+//     l2 := len(word2)
     
-    var ret string
+//     var ret string
     
-    isCheckInside := l1 > l2
-    for i, w := range word1{
-        if isCheckInside && i == l2 {
-            ret += word1[i:l1]
-            break
+//     isCheckInside := l1 > l2
+//     for i, w := range word1{
+//         if isCheckInside && i == l2 {
+//             ret += word1[i:l1]
+//             break
+//         }
+        
+//         ret += string(w) + string(word2[i])
+//     }
+    
+//     if !isCheckInside{
+//         ret += word2[l1:l2]
+//     }
+    
+//     return ret
+    
+    
+    var res []byte
+    for i:= 0; i < len(word1) || i < len(word2); i++ {
+        if i < len(word1) {
+            res = append(res, word1[i])
         }
         
-        ret += string(w) + string(word2[i])
+        if i < len(word2) {
+            res = append(res, word2[i])
+        }
     }
     
-    if !isCheckInside{
-        ret += word2[l1:l2]
-    }
-    
-    return ret
+    return string(res)
 
     // return handleMerge(word1, word2)
 }
