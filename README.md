@@ -70,3 +70,11 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Linked List
+|  |
+| ------- |
+| [0083-remove-duplicates-from-sorted-list](https://github.com/afasari/leetcode-solution/tree/master/0083-remove-duplicates-from-sorted-list) |
+<!---LeetCode Topics End-->
