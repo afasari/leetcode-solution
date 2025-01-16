@@ -10,7 +10,7 @@ Problem totals: 48
 
   | ID   | Title | Difficulty | Java | Python | Golang | PHP | Rust | Javascript | Typescript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
-  |0001|[two sum](0001-two-sum/README.md)|[Easy](https://leetcode.com/problems/two-sum)|-|-|[go](./0001-two-sum/0001-two-sum.go)|[php](./0001-two-sum/0001-two-sum.php)|[rust](./0001-two-sum/0001-two-sum.rs)|-|-|
+  |0001|[two sum](0001-two-sum/README.md)|[Easy](https://leetcode.com/problems/two-sum)|-|[python3](./0001-two-sum/0001-two-sum.py)|[go](./0001-two-sum/0001-two-sum.go)|[php](./0001-two-sum/0001-two-sum.php)|[rust](./0001-two-sum/0001-two-sum.rs)|-|-|
 |0002|[add two numbers](0002-add-two-numbers/README.md)|[Medium](https://leetcode.com/problems/add-two-numbers/)|-|-|[go](./0002-add-two-numbers/0002-add-two-numbers.go)|[php](./0002-add-two-numbers/0002-add-two-numbers.php)|-|-|-|
 |0003|[longest substring without repeating characters](0003-longest-substring-without-repeating-characters/README.md)|[Medium](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|-|-|[go](./0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.go)|[php](./0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.php)|-|-|-|
 |0004|[median of two sorted arrays](0004-median-of-two-sorted-arrays/README.md)|[Hard](https://leetcode.com/problems/median-of-two-sorted-arrays/)|-|-|[go](./0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.go)|[php](./0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.php)|-|-|-|
@@ -53,7 +53,7 @@ Problem totals: 48
 |0119|[pascals triangle ii](0119-pascals-triangle-ii/README.md)|[Easy](https://leetcode.com/problems/pascals-triangle-ii/)|-|-|[go](./0119-pascals-triangle-ii/0119-pascals-triangle-ii.go)|-|-|-|-|
 |0121|[best time to buy and sell stock](0121-best-time-to-buy-and-sell-stock/README.md)|[Easy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|-|-|[go](./0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.go)|-|-|-|-|
 |0136|[single number](0136-single-number/README.md)|[Easy](https://leetcode.com/problems/single-number/)|-|-|[go](./0136-single-number/0136-single-number.go)|-|-|-|-|
-|0217|[contains duplicate](0217-contains-duplicate/README.md)|[Easy](https://leetcode.com/problems/contains-duplicate)|-|[python3](./0217-contains-duplicate/0217-contains-duplicate.py)|[go](./0217-contains-duplicate/0217-contains-duplicate.go)|[php](./0217-contains-duplicate/0217-contains-duplicate.php)|-|[javascript](./0217-contains-duplicate/0217-contains-duplicate.js)|[typescript](./0217-contains-duplicate/0217-contains-duplicate.ts)|
+|0217|[contains duplicate](0217-contains-duplicate/README.md)|[Easy](https://leetcode.com/problems/contains-duplicate)|-|[python3](./0217-contains-duplicate/0217-contains-duplicate.py)|[go](./0217-contains-duplicate/0217-contains-duplicate.go)|[php](./0217-contains-duplicate/0217-contains-duplicate.php)|[rust](./0217-contains-duplicate/0217-contains-duplicate.rs)|[javascript](./0217-contains-duplicate/0217-contains-duplicate.js)|[typescript](./0217-contains-duplicate/0217-contains-duplicate.ts)|
 |0605|[can place flowers](0605-can-place-flowers/README.md)|[Easy](https://leetcode.com/problems/can-place-flowers/)|-|-|[go](./0605-can-place-flowers/0605-can-place-flowers.go)|-|-|-|-|
 |1071|[greatest common divisor of strings](1071-greatest-common-divisor-of-strings/README.md)|[Easy](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|-|-|[go](./1071-greatest-common-divisor-of-strings/1071-greatest-common-divisor-of-strings.go)|-|-|-|-|
 |1431|[kids with the greatest number of candies](1431-kids-with-the-greatest-number-of-candies/README.md)|[Easy](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|-|-|[go](./1431-kids-with-the-greatest-number-of-candies/1431-kids-with-the-greatest-number-of-candies.go)|-|-|-|-|
@@ -70,21 +70,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/afasari/leetcode-solution/tree/master/0001-two-sum) |
-| [0217-contains-duplicate](https://github.com/afasari/leetcode-solution/tree/master/0217-contains-duplicate) |
-## Hash Table
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/afasari/leetcode-solution/tree/master/0001-two-sum) |
-| [0217-contains-duplicate](https://github.com/afasari/leetcode-solution/tree/master/0217-contains-duplicate) |
-## Sorting
-|  |
-| ------- |
-| [0217-contains-duplicate](https://github.com/afasari/leetcode-solution/tree/master/0217-contains-duplicate) |
-<!---LeetCode Topics End-->
