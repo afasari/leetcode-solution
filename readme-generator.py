@@ -11,7 +11,7 @@ logger = logging.getLogger('readme-generator')
 logger.setLevel(logging.INFO)
 
 # - Config
-choosedLanguages = ['python3', 'java', 'go', 'rust', 'php', 'javascript']
+choosedLanguages = ['python3', 'java', 'go', 'rust', 'php', 'javascript', 'typescript']
 TEMPLATE_TABLE_TAG = "{%-- TABLE --%}"
 TEMPLATE_COUNT_TAG = "{%-- COUNT --%}"
 LANGUAGES = {
@@ -20,7 +20,8 @@ LANGUAGES = {
   'go': 'go',
   'rust': 'rs',
   'php': 'php',
-  'javascript': 'js'
+  'javascript': 'js',
+  'typecript': 'ts'
 }
 
 def valid_filename(filename):
@@ -39,8 +40,8 @@ def format_filename(filename, language):
 def generate_markdown_table(questions):
   logger.info('Starting generate markdown table.')
   table = """
-  | ID   | Title | Difficulty | Java | Python | Golang | PHP | Rust | Javascript |
-  | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: |
+  | ID   | Title | Difficulty | Java | Python | Golang | PHP | Rust | Javascript | Typescript |
+  | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
   """
   items = list(map(lambda item: item.to_markdown(), questions.values()))
   table = table + "\n".join(items)
@@ -64,6 +65,8 @@ class Question:
     php_url = "[php](%s)" % (self.solutions['php']) if 'php' in self.solutions and os.path.exists(self.solutions['php']) else "-"
     rust_url = "[rust](%s)" % (self.solutions['rust']) if 'rust' in self.solutions and os.path.exists(self.solutions['rust']) else "-"
     javascript_url = "[javascript](%s)" % (self.solutions['javascript']) if 'javascript' in self.solutions and os.path.exists(self.solutions['javascript']) else "-"
+    typescript_url = "[typescript](%s)" % (self.solutions['typescript']) if 'typescript' in self.solutions and os.path.exists(self.solutions['typescript']) else "-"
+
     title_url = "[%s](%s/README.md)" % (self.title, self.title_url)
 
     difficulty = ''
@@ -75,7 +78,7 @@ class Question:
       difficulty = "[%s](%s)" % (re.findall(difficulty_reg, readme_problem)[0], problem_url.group(1))
      else:
       difficulty = "%s" % (re.findall(difficulty_reg, readme_problem)[0])
-    markdown = "|%s|%s|%s|%s|%s|%s|%s|%s|%s|" % (self.index, title_url, difficulty, java_url, python_url, go_url, php_url, rust_url, javascript_url)
+    markdown = "|%s|%s|%s|%s|%s|%s|%s|%s|%s|%s|" % (self.index, title_url, difficulty, java_url, python_url, go_url, php_url, rust_url, javascript_url, typescript_url)
     return markdown
 
 if __name__ == "__main__":
