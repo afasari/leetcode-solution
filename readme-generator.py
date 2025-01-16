@@ -21,11 +21,11 @@ LANGUAGES = {
   'rust': 'rs',
   'php': 'php',
   'javascript': 'js',
-  'typecript': 'ts'
+  'typescript': 'ts'
 }
 
 def valid_filename(filename):
- if filename == '.git' or filename == '.github' or filename == 'readme-generator.py' or filename == 'README.md' or filename == 'README-TEMPLATE.md' :
+ if filename == '.git' or filename == '.github' or filename == 'readme-generator.py' or filename == 'README.md' or filename == 'README-TEMPLATE.md' or filename == 'stat.json' :
    return False
  return True
 
@@ -43,6 +43,7 @@ def generate_markdown_table(questions):
   | ID   | Title | Difficulty | Java | Python | Golang | PHP | Rust | Javascript | Typescript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
   """
+
   items = list(map(lambda item: item.to_markdown(), questions.values()))
   table = table + "\n".join(items)
   logger.info('Finish generate markdown table.')
@@ -66,7 +67,6 @@ class Question:
     rust_url = "[rust](%s)" % (self.solutions['rust']) if 'rust' in self.solutions and os.path.exists(self.solutions['rust']) else "-"
     javascript_url = "[javascript](%s)" % (self.solutions['javascript']) if 'javascript' in self.solutions and os.path.exists(self.solutions['javascript']) else "-"
     typescript_url = "[typescript](%s)" % (self.solutions['typescript']) if 'typescript' in self.solutions and os.path.exists(self.solutions['typescript']) else "-"
-
     title_url = "[%s](%s/README.md)" % (self.title, self.title_url)
 
     difficulty = ''
