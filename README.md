@@ -46,7 +46,7 @@ Problem totals: 48
 |0067|[add binary](0067-add-binary/README.md)|[Easy](https://leetcode.com/problems/add-binary/)|-|-|[go](./0067-add-binary/0067-add-binary.go)|-|-|-|-|
 |0069|[sqrtx](0069-sqrtx/README.md)|[Easy](https://leetcode.com/problems/sqrtx/)|-|-|[go](./0069-sqrtx/0069-sqrtx.go)|-|-|-|-|
 |0070|[climbing stairs](0070-climbing-stairs/README.md)|[Easy](https://leetcode.com/problems/climbing-stairs/)|-|-|[go](./0070-climbing-stairs/0070-climbing-stairs.go)|-|[rust](./0070-climbing-stairs/0070-climbing-stairs.rs)|-|-|
-|0083|[remove duplicates from sorted list](0083-remove-duplicates-from-sorted-list/README.md)|[Easy](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|-|-|-|-|-|[javascript](./0083-remove-duplicates-from-sorted-list/0083-remove-duplicates-from-sorted-list.js)|-|
+|0083|[remove duplicates from sorted list](0083-remove-duplicates-from-sorted-list/README.md)|[Easy](https://leetcode.com/problems/remove-duplicates-from-sorted-list)|-|-|[go](./0083-remove-duplicates-from-sorted-list/0083-remove-duplicates-from-sorted-list.go)|-|-|[javascript](./0083-remove-duplicates-from-sorted-list/0083-remove-duplicates-from-sorted-list.js)|-|
 |0088|[merge sorted array](0088-merge-sorted-array/README.md)|[Easy](https://leetcode.com/problems/merge-sorted-array/)|-|-|[go](./0088-merge-sorted-array/0088-merge-sorted-array.go)|-|-|-|-|
 |0100|[same tree](0100-same-tree/README.md)|[Easy](https://leetcode.com/problems/same-tree/)|-|-|[go](./0100-same-tree/0100-same-tree.go)|-|-|-|-|
 |0118|[pascals triangle](0118-pascals-triangle/README.md)|[Easy](https://leetcode.com/problems/pascals-triangle/)|-|-|[go](./0118-pascals-triangle/0118-pascals-triangle.go)|-|-|-|-|
@@ -70,11 +70,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-|  |
-| ------- |
-| [0083-remove-duplicates-from-sorted-list](https://github.com/afasari/leetcode-solution/tree/master/0083-remove-duplicates-from-sorted-list) |
-<!---LeetCode Topics End-->
