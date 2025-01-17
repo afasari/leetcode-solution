@@ -2,13 +2,13 @@
 
 ![Leetcode](https://leetcode.com/static/images/LeetCode_Sharing.png)
 
-This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Python, Javascript**.
+This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Python3, Javascript, Typescript**.
 
 🖥 This `README.md` is generated automatically.
 
 Problem totals: 50
 
-  | ID   | Title | Difficulty | Java | Python | Golang | PHP | Rust | Javascript | Typescript |
+  | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
   |0001|[two sum](0001-two-sum/README.md)|[Easy](https://leetcode.com/problems/two-sum)|-|[python3](./0001-two-sum/0001-two-sum.py)|[go](./0001-two-sum/0001-two-sum.go)|[php](./0001-two-sum/0001-two-sum.php)|[rust](./0001-two-sum/0001-two-sum.rs)|[javascript](./0001-two-sum/0001-two-sum.js)|[typescript](./0001-two-sum/0001-two-sum.ts)|
 |0002|[add two numbers](0002-add-two-numbers/README.md)|[Medium](https://leetcode.com/problems/add-two-numbers/)|-|-|[go](./0002-add-two-numbers/0002-add-two-numbers.go)|[php](./0002-add-two-numbers/0002-add-two-numbers.php)|-|-|-|

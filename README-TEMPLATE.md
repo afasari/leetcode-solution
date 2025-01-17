@@ -2,7 +2,7 @@
 
 ![Leetcode](https://leetcode.com/static/images/LeetCode_Sharing.png)
 
-This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Python, Javascript**.
+This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Python3, Javascript, Typescript**.
 
 🖥 This `README.md` is generated automatically.
 

@@ -40,7 +40,7 @@ def format_filename(filename, language):
 def generate_markdown_table(questions):
   logger.info('Starting generate markdown table.')
   table = """
-  | ID   | Title | Difficulty | Java | Python | Golang | PHP | Rust | Javascript | Typescript |
+  | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
   """
 
