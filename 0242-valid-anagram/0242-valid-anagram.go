@@ -18,5 +18,7 @@ return false
     }
 
     return true
-    
+
+    // O(s +t) time complexity   
+    // O(s +t) memory complexity
 }
