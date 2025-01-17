@@ -77,17 +77,21 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/afasari/leetcode-solution/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/afasari/leetcode-solution/tree/master/0049-group-anagrams) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/afasari/leetcode-solution/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/afasari/leetcode-solution/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/afasari/leetcode-solution/tree/master/0242-valid-anagram) |
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/afasari/leetcode-solution/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/afasari/leetcode-solution/tree/master/0242-valid-anagram) |
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/afasari/leetcode-solution/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/afasari/leetcode-solution/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
