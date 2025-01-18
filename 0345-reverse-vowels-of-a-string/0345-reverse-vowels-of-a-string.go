@@ -7,6 +7,8 @@ func reverseVowels(s string) string {
         "O": true,
     }
 
+    return rev(s, mapVowel)
+
     ret := ""
     reversedVowel := ""
     mapRet := make(map[int]string)
@@ -33,4 +35,45 @@ func reverseVowels(s string) string {
     }
     
     return ret
+}
+
+func rev(s string, mapVowel map[string]bool) string{
+    if len(s) == 1{
+        return s
+    }
+    start := 0
+    end := len(s)-1
+    leftS := ""
+    rightS := ""
+
+    for start < end {
+        _, isLeftVowel := mapVowel[strings.ToUpper(string(s[start]))]
+        _, isRightVowel := mapVowel[strings.ToUpper(string(s[end]))]
+
+        isEndLoop := end - start == 1
+
+        if !isLeftVowel || (isEndLoop && !isRightVowel) {
+            leftS += string(s[start])
+            start++
+        }
+        
+        if !isRightVowel || (isEndLoop && !isLeftVowel) {
+            rightS = string(s[end]) + rightS
+            end--
+        }
+
+        if isLeftVowel && isRightVowel{
+            leftS += string(s[end])
+            rightS = string(s[start]) + rightS
+            start++
+            end--
+        }
+        
+        if start == end {
+            leftS += string(s[start])
+            break
+        }
+    }
+
+    return leftS + rightS
 }
