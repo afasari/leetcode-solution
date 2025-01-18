@@ -7,7 +7,8 @@ func reverseVowels(s string) string {
         "O": true,
     }
 
-    return rev(s, mapVowel)
+    // return rev(s, mapVowel)
+    return reversed(s)
 
     ret := ""
     reversedVowel := ""
