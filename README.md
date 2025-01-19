@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 50
+Problem totals: 51
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -56,6 +56,7 @@ Problem totals: 50
 |0136|[single number](0136-single-number/README.md)|[Easy](https://leetcode.com/problems/single-number/)|-|-|[go](./0136-single-number/0136-single-number.go)|-|-|-|-|
 |0217|[contains duplicate](0217-contains-duplicate/README.md)|[Easy](https://leetcode.com/problems/contains-duplicate)|-|[python3](./0217-contains-duplicate/0217-contains-duplicate.py)|[go](./0217-contains-duplicate/0217-contains-duplicate.go)|[php](./0217-contains-duplicate/0217-contains-duplicate.php)|[rust](./0217-contains-duplicate/0217-contains-duplicate.rs)|[javascript](./0217-contains-duplicate/0217-contains-duplicate.js)|[typescript](./0217-contains-duplicate/0217-contains-duplicate.ts)|
 |0242|[valid anagram](0242-valid-anagram/README.md)|[Easy](https://leetcode.com/problems/valid-anagram)|-|[python3](./0242-valid-anagram/0242-valid-anagram.py)|[go](./0242-valid-anagram/0242-valid-anagram.go)|-|-|-|-|
+|0345|[reverse vowels of a string](0345-reverse-vowels-of-a-string/README.md)|[Easy](https://leetcode.com/problems/reverse-vowels-of-a-string)|-|-|[go](./0345-reverse-vowels-of-a-string/0345-reverse-vowels-of-a-string.go)|-|-|-|-|
 |0605|[can place flowers](0605-can-place-flowers/README.md)|[Easy](https://leetcode.com/problems/can-place-flowers/)|-|-|[go](./0605-can-place-flowers/0605-can-place-flowers.go)|-|-|-|-|
 |1071|[greatest common divisor of strings](1071-greatest-common-divisor-of-strings/README.md)|[Easy](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|-|-|[go](./1071-greatest-common-divisor-of-strings/1071-greatest-common-divisor-of-strings.go)|-|-|-|-|
 |1431|[kids with the greatest number of candies](1431-kids-with-the-greatest-number-of-candies/README.md)|[Easy](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|-|-|[go](./1431-kids-with-the-greatest-number-of-candies/1431-kids-with-the-greatest-number-of-candies.go)|-|-|-|-|
@@ -72,15 +73,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Two Pointers
-|  |
-| ------- |
-| [0345-reverse-vowels-of-a-string](https://github.com/afasari/leetcode-solution/tree/master/0345-reverse-vowels-of-a-string) |
-## String
-|  |
-| ------- |
-| [0345-reverse-vowels-of-a-string](https://github.com/afasari/leetcode-solution/tree/master/0345-reverse-vowels-of-a-string) |
-<!---LeetCode Topics End-->
