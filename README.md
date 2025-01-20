@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 51
+Problem totals: 54
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -54,9 +54,12 @@ Problem totals: 51
 |0119|[pascals triangle ii](0119-pascals-triangle-ii/README.md)|[Easy](https://leetcode.com/problems/pascals-triangle-ii/)|-|-|[go](./0119-pascals-triangle-ii/0119-pascals-triangle-ii.go)|-|-|-|-|
 |0121|[best time to buy and sell stock](0121-best-time-to-buy-and-sell-stock/README.md)|[Easy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|-|-|[go](./0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.go)|-|-|-|-|
 |0136|[single number](0136-single-number/README.md)|[Easy](https://leetcode.com/problems/single-number/)|-|-|[go](./0136-single-number/0136-single-number.go)|-|-|-|-|
+|0151|[reverse words in a string](0151-reverse-words-in-a-string/README.md)|[Medium](https://leetcode.com/problems/reverse-words-in-a-string/?envType=study-plan-v2&envId=leetcode-75)|-|-|[go](./0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.go)|-|-|-|-|
 |0217|[contains duplicate](0217-contains-duplicate/README.md)|[Easy](https://leetcode.com/problems/contains-duplicate)|-|[python3](./0217-contains-duplicate/0217-contains-duplicate.py)|[go](./0217-contains-duplicate/0217-contains-duplicate.go)|[php](./0217-contains-duplicate/0217-contains-duplicate.php)|[rust](./0217-contains-duplicate/0217-contains-duplicate.rs)|[javascript](./0217-contains-duplicate/0217-contains-duplicate.js)|[typescript](./0217-contains-duplicate/0217-contains-duplicate.ts)|
+|0238|[product of array except self](0238-product-of-array-except-self/README.md)|[Medium](https://leetcode.com/problems/product-of-array-except-self)|-|-|[go](./0238-product-of-array-except-self/0238-product-of-array-except-self.go)|-|-|-|-|
 |0242|[valid anagram](0242-valid-anagram/README.md)|[Easy](https://leetcode.com/problems/valid-anagram)|-|[python3](./0242-valid-anagram/0242-valid-anagram.py)|[go](./0242-valid-anagram/0242-valid-anagram.go)|-|-|-|-|
 |0345|[reverse vowels of a string](0345-reverse-vowels-of-a-string/README.md)|[Easy](https://leetcode.com/problems/reverse-vowels-of-a-string)|-|-|[go](./0345-reverse-vowels-of-a-string/0345-reverse-vowels-of-a-string.go)|-|-|-|-|
+|0347|[top k frequent elements](0347-top-k-frequent-elements/README.md)|[Medium](https://leetcode.com/problems/top-k-frequent-elements)|-|-|[go](./0347-top-k-frequent-elements/0347-top-k-frequent-elements.go)|-|-|-|-|
 |0605|[can place flowers](0605-can-place-flowers/README.md)|[Easy](https://leetcode.com/problems/can-place-flowers/)|-|-|[go](./0605-can-place-flowers/0605-can-place-flowers.go)|-|-|-|-|
 |1071|[greatest common divisor of strings](1071-greatest-common-divisor-of-strings/README.md)|[Easy](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|-|-|[go](./1071-greatest-common-divisor-of-strings/1071-greatest-common-divisor-of-strings.go)|-|-|-|-|
 |1431|[kids with the greatest number of candies](1431-kids-with-the-greatest-number-of-candies/README.md)|[Easy](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|-|-|[go](./1431-kids-with-the-greatest-number-of-candies/1431-kids-with-the-greatest-number-of-candies.go)|-|-|-|-|
@@ -73,52 +76,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Two Pointers
-|  |
-| ------- |
-| [0151-reverse-words-in-a-string](https://github.com/afasari/leetcode-solution/tree/master/0151-reverse-words-in-a-string) |
-## String
-|  |
-| ------- |
-| [0151-reverse-words-in-a-string](https://github.com/afasari/leetcode-solution/tree/master/0151-reverse-words-in-a-string) |
-## Array
-|  |
-| ------- |
-| [0238-product-of-array-except-self](https://github.com/afasari/leetcode-solution/tree/master/0238-product-of-array-except-self) |
-| [0347-top-k-frequent-elements](https://github.com/afasari/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
-## Hash Table
-|  |
-| ------- |
-| [0347-top-k-frequent-elements](https://github.com/afasari/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
-## Divide and Conquer
-|  |
-| ------- |
-| [0347-top-k-frequent-elements](https://github.com/afasari/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
-## Sorting
-|  |
-| ------- |
-| [0347-top-k-frequent-elements](https://github.com/afasari/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
-## Heap (Priority Queue)
-|  |
-| ------- |
-| [0347-top-k-frequent-elements](https://github.com/afasari/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
-## Bucket Sort
-|  |
-| ------- |
-| [0347-top-k-frequent-elements](https://github.com/afasari/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
-## Counting
-|  |
-| ------- |
-| [0347-top-k-frequent-elements](https://github.com/afasari/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
-## Quickselect
-|  |
-| ------- |
-| [0347-top-k-frequent-elements](https://github.com/afasari/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
-## Prefix Sum
-|  |
-| ------- |
-| [0238-product-of-array-except-self](https://github.com/afasari/leetcode-solution/tree/master/0238-product-of-array-except-self) |
-<!---LeetCode Topics End-->
