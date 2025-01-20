@@ -87,6 +87,7 @@ python3 readme-generator.py
 ## Array
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/afasari/leetcode-solution/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/afasari/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
 ## Hash Table
 |  |
@@ -116,4 +117,8 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/afasari/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/afasari/leetcode-solution/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
