@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 54
+Problem totals: 55
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -41,6 +41,7 @@ Problem totals: 54
 |0029|[divide two integers](0029-divide-two-integers/README.md)|[Medium](https://leetcode.com/problems/divide-two-integers/)|-|-|[go](./0029-divide-two-integers/0029-divide-two-integers.go)|-|-|-|-|
 |0031|[next permutation](0031-next-permutation/README.md)|[Medium](https://leetcode.com/problems/next-permutation/)|-|-|[go](./0031-next-permutation/0031-next-permutation.go)|-|-|-|-|
 |0035|[search insert position](0035-search-insert-position/README.md)|[Easy](https://leetcode.com/problems/search-insert-position/)|-|-|[go](./0035-search-insert-position/0035-search-insert-position.go)|-|-|-|-|
+|0036|[valid sudoku](0036-valid-sudoku/README.md)|[Medium](https://leetcode.com/problems/valid-sudoku)|-|-|[go](./0036-valid-sudoku/0036-valid-sudoku.go)|-|-|-|-|
 |0049|[group anagrams](0049-group-anagrams/README.md)|[Medium](https://leetcode.com/problems/group-anagrams)|-|-|[go](./0049-group-anagrams/0049-group-anagrams.go)|-|-|-|-|
 |0058|[length of last word](0058-length-of-last-word/README.md)|[Easy](https://leetcode.com/problems/length-of-last-word/)|-|-|[go](./0058-length-of-last-word/0058-length-of-last-word.go)|-|-|-|-|
 |0066|[plus one](0066-plus-one/README.md)|[Easy](https://leetcode.com/problems/plus-one/)|-|-|[go](./0066-plus-one/0066-plus-one.go)|-|-|-|-|
@@ -76,19 +77,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0036-valid-sudoku](https://github.com/afasari/leetcode-solution/tree/master/0036-valid-sudoku) |
-## Hash Table
-|  |
-| ------- |
-| [0036-valid-sudoku](https://github.com/afasari/leetcode-solution/tree/master/0036-valid-sudoku) |
-## Matrix
-|  |
-| ------- |
-| [0036-valid-sudoku](https://github.com/afasari/leetcode-solution/tree/master/0036-valid-sudoku) |
-<!---LeetCode Topics End-->
