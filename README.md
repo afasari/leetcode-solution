@@ -77,3 +77,15 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0334-increasing-triplet-subsequence](https://github.com/afasari/leetcode-solution/tree/master/0334-increasing-triplet-subsequence) |
+## Greedy
+|  |
+| ------- |
+| [0334-increasing-triplet-subsequence](https://github.com/afasari/leetcode-solution/tree/master/0334-increasing-triplet-subsequence) |
+<!---LeetCode Topics End-->
