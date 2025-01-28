@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 57
+Problem totals: 59
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -54,6 +54,8 @@ Problem totals: 57
 |0118|[pascals triangle](0118-pascals-triangle/README.md)|[Easy](https://leetcode.com/problems/pascals-triangle/)|-|-|[go](./0118-pascals-triangle/0118-pascals-triangle.go)|-|-|-|-|
 |0119|[pascals triangle ii](0119-pascals-triangle-ii/README.md)|[Easy](https://leetcode.com/problems/pascals-triangle-ii/)|-|-|[go](./0119-pascals-triangle-ii/0119-pascals-triangle-ii.go)|-|-|-|-|
 |0121|[best time to buy and sell stock](0121-best-time-to-buy-and-sell-stock/README.md)|[Easy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|-|-|[go](./0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.go)|-|-|-|-|
+|0125|[valid palindrome](0125-valid-palindrome/README.md)|[Easy](https://leetcode.com/problems/valid-palindrome)|-|-|[go](./0125-valid-palindrome/0125-valid-palindrome.go)|-|-|-|-|
+|0128|[longest consecutive sequence](0128-longest-consecutive-sequence/README.md)|[Medium](https://leetcode.com/problems/longest-consecutive-sequence)|-|-|[go](./0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.go)|-|-|-|-|
 |0136|[single number](0136-single-number/README.md)|[Easy](https://leetcode.com/problems/single-number/)|-|-|[go](./0136-single-number/0136-single-number.go)|-|-|-|-|
 |0151|[reverse words in a string](0151-reverse-words-in-a-string/README.md)|[Medium](https://leetcode.com/problems/reverse-words-in-a-string/?envType=study-plan-v2&envId=leetcode-75)|-|-|[go](./0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.go)|-|-|-|-|
 |0217|[contains duplicate](0217-contains-duplicate/README.md)|[Easy](https://leetcode.com/problems/contains-duplicate)|-|[python3](./0217-contains-duplicate/0217-contains-duplicate.py)|[go](./0217-contains-duplicate/0217-contains-duplicate.go)|[php](./0217-contains-duplicate/0217-contains-duplicate.php)|[rust](./0217-contains-duplicate/0217-contains-duplicate.rs)|[javascript](./0217-contains-duplicate/0217-contains-duplicate.js)|[typescript](./0217-contains-duplicate/0217-contains-duplicate.ts)|
@@ -79,27 +81,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0128-longest-consecutive-sequence](https://github.com/afasari/leetcode-solution/tree/master/0128-longest-consecutive-sequence) |
-## Hash Table
-|  |
-| ------- |
-| [0128-longest-consecutive-sequence](https://github.com/afasari/leetcode-solution/tree/master/0128-longest-consecutive-sequence) |
-## Union Find
-|  |
-| ------- |
-| [0128-longest-consecutive-sequence](https://github.com/afasari/leetcode-solution/tree/master/0128-longest-consecutive-sequence) |
-## Two Pointers
-|  |
-| ------- |
-| [0125-valid-palindrome](https://github.com/afasari/leetcode-solution/tree/master/0125-valid-palindrome) |
-## String
-|  |
-| ------- |
-| [0125-valid-palindrome](https://github.com/afasari/leetcode-solution/tree/master/0125-valid-palindrome) |
-<!---LeetCode Topics End-->
