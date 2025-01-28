@@ -4,7 +4,6 @@ func isSubsequence(s string, t string) bool {
         return true
     }
 
-    // foundAt := -1
     for _, ts := range t{
         if idx == len(s){
             break
