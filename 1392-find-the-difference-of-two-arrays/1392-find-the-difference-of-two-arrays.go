@@ -33,23 +33,13 @@ func findDifference(nums1 []int, nums2 []int) [][]int {
         }
     }
 
-    fmt.Println(m1,m2,md)
-
-        for n1, _ := range m1{
-            ret[0] = append(ret[0], n1)
-        }
-        
-        for n2, _ := range m2{
-            ret[1] = append(ret[1], n2)
-        }
-
-
+    for n1, _ := range m1{
+        ret[0] = append(ret[0], n1)
+    }
     
-    // for _, n2 := range nums2{
-    //     if val, ok := md[n2]; ok && val == 1{
-    //         ret[1] = append(ret[1], n2)
-    //     }
-    // }
-
+    for n2, _ := range m2{
+        ret[1] = append(ret[1], n2)
+    }
+    
     return ret
 }
