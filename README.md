@@ -93,11 +93,13 @@ python3 readme-generator.py
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/afasari/leetcode-solution/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/afasari/leetcode-solution/tree/master/0015-3sum) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/afasari/leetcode-solution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/afasari/leetcode-solution/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/afasari/leetcode-solution/tree/master/0015-3sum) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/afasari/leetcode-solution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Binary Search
@@ -108,4 +110,8 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0015-3sum](https://github.com/afasari/leetcode-solution/tree/master/0015-3sum) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/afasari/leetcode-solution/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
