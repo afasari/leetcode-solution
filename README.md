@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 59
+Problem totals: 65
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -65,10 +65,16 @@ Problem totals: 59
 |0334|[increasing triplet subsequence](0334-increasing-triplet-subsequence/README.md)|[Medium](https://leetcode.com/problems/increasing-triplet-subsequence)|-|-|[go](./0334-increasing-triplet-subsequence/0334-increasing-triplet-subsequence.go)|-|-|-|-|
 |0345|[reverse vowels of a string](0345-reverse-vowels-of-a-string/README.md)|[Easy](https://leetcode.com/problems/reverse-vowels-of-a-string)|-|-|[go](./0345-reverse-vowels-of-a-string/0345-reverse-vowels-of-a-string.go)|-|-|-|-|
 |0347|[top k frequent elements](0347-top-k-frequent-elements/README.md)|[Medium](https://leetcode.com/problems/top-k-frequent-elements)|-|-|[go](./0347-top-k-frequent-elements/0347-top-k-frequent-elements.go)|-|-|-|-|
+|0392|[is subsequence](0392-is-subsequence/README.md)|[Easy](https://leetcode.com/problems/is-subsequence)|-|-|[go](./0392-is-subsequence/0392-is-subsequence.go)|-|-|-|-|
 |0605|[can place flowers](0605-can-place-flowers/README.md)|[Easy](https://leetcode.com/problems/can-place-flowers/)|-|-|[go](./0605-can-place-flowers/0605-can-place-flowers.go)|-|-|-|-|
+|0643|[maximum average subarray i](0643-maximum-average-subarray-i/README.md)|[Easy](https://leetcode.com/problems/maximum-average-subarray-i)|-|-|[go](./0643-maximum-average-subarray-i/0643-maximum-average-subarray-i.go)|-|-|-|-|
+|0724|[find pivot index](0724-find-pivot-index/README.md)|[Easy](https://leetcode.com/problems/find-pivot-index)|-|-|[go](./0724-find-pivot-index/0724-find-pivot-index.go)|-|-|-|-|
 |1071|[greatest common divisor of strings](1071-greatest-common-divisor-of-strings/README.md)|[Easy](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|-|-|[go](./1071-greatest-common-divisor-of-strings/1071-greatest-common-divisor-of-strings.go)|-|-|-|-|
+|1319|[unique number of occurrences](1319-unique-number-of-occurrences/README.md)|[Easy](https://leetcode.com/problems/unique-number-of-occurrences)|-|-|[go](./1319-unique-number-of-occurrences/1319-unique-number-of-occurrences.go)|-|-|-|-|
+|1392|[find the difference of two arrays](1392-find-the-difference-of-two-arrays/README.md)|[Easy](https://leetcode.com/problems/find-the-difference-of-two-arrays/?envType=study-plan-v2&envId=leetcode-75)|-|-|[go](./1392-find-the-difference-of-two-arrays/1392-find-the-difference-of-two-arrays.go)|-|-|-|-|
 |1431|[kids with the greatest number of candies](1431-kids-with-the-greatest-number-of-candies/README.md)|[Easy](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|-|-|[go](./1431-kids-with-the-greatest-number-of-candies/1431-kids-with-the-greatest-number-of-candies.go)|-|-|-|-|
 |1768|[merge strings alternately](1768-merge-strings-alternately/README.md)|[Easy](https://leetcode.com/problems/merge-strings-alternately/)|-|-|[go](./1768-merge-strings-alternately/1768-merge-strings-alternately.go)|-|-|-|-|
+|1833|[find the highest altitude](1833-find-the-highest-altitude/README.md)|[Easy](https://leetcode.com/problems/find-the-highest-altitude)|-|-|-|-|-|-|-|
 
 ## Readme Generator
 
@@ -81,39 +87,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Two Pointers
-|  |
-| ------- |
-| [0392-is-subsequence](https://github.com/afasari/leetcode-solution/tree/master/0392-is-subsequence) |
-## String
-|  |
-| ------- |
-| [0392-is-subsequence](https://github.com/afasari/leetcode-solution/tree/master/0392-is-subsequence) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0392-is-subsequence](https://github.com/afasari/leetcode-solution/tree/master/0392-is-subsequence) |
-## Array
-|  |
-| ------- |
-| [0643-maximum-average-subarray-i](https://github.com/afasari/leetcode-solution/tree/master/0643-maximum-average-subarray-i) |
-| [0724-find-pivot-index](https://github.com/afasari/leetcode-solution/tree/master/0724-find-pivot-index) |
-| [1319-unique-number-of-occurrences](https://github.com/afasari/leetcode-solution/tree/master/1319-unique-number-of-occurrences) |
-| [1392-find-the-difference-of-two-arrays](https://github.com/afasari/leetcode-solution/tree/master/1392-find-the-difference-of-two-arrays) |
-## Sliding Window
-|  |
-| ------- |
-| [0643-maximum-average-subarray-i](https://github.com/afasari/leetcode-solution/tree/master/0643-maximum-average-subarray-i) |
-## Prefix Sum
-|  |
-| ------- |
-| [0724-find-pivot-index](https://github.com/afasari/leetcode-solution/tree/master/0724-find-pivot-index) |
-## Hash Table
-|  |
-| ------- |
-| [1319-unique-number-of-occurrences](https://github.com/afasari/leetcode-solution/tree/master/1319-unique-number-of-occurrences) |
-| [1392-find-the-difference-of-two-arrays](https://github.com/afasari/leetcode-solution/tree/master/1392-find-the-difference-of-two-arrays) |
-<!---LeetCode Topics End-->
