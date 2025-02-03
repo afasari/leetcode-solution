@@ -101,6 +101,7 @@ python3 readme-generator.py
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/afasari/leetcode-solution/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/afasari/leetcode-solution/tree/master/0724-find-pivot-index) |
+| [1319-unique-number-of-occurrences](https://github.com/afasari/leetcode-solution/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/afasari/leetcode-solution/tree/master/1392-find-the-difference-of-two-arrays) |
 ## Sliding Window
 |  |
@@ -113,5 +114,6 @@ python3 readme-generator.py
 ## Hash Table
 |  |
 | ------- |
+| [1319-unique-number-of-occurrences](https://github.com/afasari/leetcode-solution/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/afasari/leetcode-solution/tree/master/1392-find-the-difference-of-two-arrays) |
 <!---LeetCode Topics End-->
