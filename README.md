@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 65
+Problem totals: 66
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -20,11 +20,11 @@ Problem totals: 65
 |0008|[string to integer atoi](0008-string-to-integer-atoi/README.md)|[Medium](https://leetcode.com/problems/string-to-integer-atoi/)|-|-|[go](./0008-string-to-integer-atoi/0008-string-to-integer-atoi.go)|[php](./0008-string-to-integer-atoi/0008-string-to-integer-atoi.php)|-|-|-|
 |0009|[palindrome number](0009-palindrome-number/README.md)|[Easy](https://leetcode.com/problems/palindrome-number/)|-|-|[go](./0009-palindrome-number/0009-palindrome-number.go)|[php](./0009-palindrome-number/0009-palindrome-number.php)|-|-|-|
 |0010|[regular expression matching](0010-regular-expression-matching/README.md)|[Hard](https://leetcode.com/problems/regular-expression-matching/)|-|[python3](./0010-regular-expression-matching/0010-regular-expression-matching.py)|-|-|-|-|-|
-|0011|[container with most water](0011-container-with-most-water/README.md)|[Medium](https://leetcode.com/problems/container-with-most-water/)|-|[python3](./0011-container-with-most-water/0011-container-with-most-water.py)|[go](./0011-container-with-most-water/0011-container-with-most-water.go)|[php](./0011-container-with-most-water/0011-container-with-most-water.php)|[rust](./0011-container-with-most-water/0011-container-with-most-water.rs)|-|-|
+|0011|[container with most water](0011-container-with-most-water/README.md)|[Medium](https://leetcode.com/problems/container-with-most-water)|-|[python3](./0011-container-with-most-water/0011-container-with-most-water.py)|[go](./0011-container-with-most-water/0011-container-with-most-water.go)|[php](./0011-container-with-most-water/0011-container-with-most-water.php)|[rust](./0011-container-with-most-water/0011-container-with-most-water.rs)|-|-|
 |0012|[integer to roman](0012-integer-to-roman/README.md)|[Medium](https://leetcode.com/problems/integer-to-roman/)|-|-|[go](./0012-integer-to-roman/0012-integer-to-roman.go)|[php](./0012-integer-to-roman/0012-integer-to-roman.php)|[rust](./0012-integer-to-roman/0012-integer-to-roman.rs)|-|-|
 |0013|[roman to integer](0013-roman-to-integer/README.md)|[Easy](https://leetcode.com/problems/roman-to-integer/)|-|-|[go](./0013-roman-to-integer/0013-roman-to-integer.go)|[php](./0013-roman-to-integer/0013-roman-to-integer.php)|[rust](./0013-roman-to-integer/0013-roman-to-integer.rs)|-|-|
 |0014|[longest common prefix](0014-longest-common-prefix/README.md)|[Easy](https://leetcode.com/problems/longest-common-prefix/)|-|-|[go](./0014-longest-common-prefix/0014-longest-common-prefix.go)|[php](./0014-longest-common-prefix/0014-longest-common-prefix.php)|-|-|-|
-|0015|[3sum](0015-3sum/README.md)|[Medium](https://leetcode.com/problems/3sum/)|-|-|[go](./0015-3sum/0015-3sum.go)|[php](./0015-3sum/0015-3sum.php)|-|-|-|
+|0015|[3sum](0015-3sum/README.md)|[Medium](https://leetcode.com/problems/3sum)|-|-|[go](./0015-3sum/0015-3sum.go)|[php](./0015-3sum/0015-3sum.php)|-|-|-|
 |0016|[3sum closest](0016-3sum-closest/README.md)|[Medium](https://leetcode.com/problems/3sum-closest/)|-|-|[go](./0016-3sum-closest/0016-3sum-closest.go)|[php](./0016-3sum-closest/0016-3sum-closest.php)|-|-|-|
 |0017|[letter combinations of a phone number](0017-letter-combinations-of-a-phone-number/README.md)|[Medium](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|-|-|[go](./0017-letter-combinations-of-a-phone-number/0017-letter-combinations-of-a-phone-number.go)|[php](./0017-letter-combinations-of-a-phone-number/0017-letter-combinations-of-a-phone-number.php)|-|-|-|
 |0018|[4sum](0018-4sum/README.md)|[Medium](https://leetcode.com/problems/4sum/)|-|-|[go](./0018-4sum/0018-4sum.go)|[php](./0018-4sum/0018-4sum.php)|-|-|-|
@@ -58,6 +58,7 @@ Problem totals: 65
 |0128|[longest consecutive sequence](0128-longest-consecutive-sequence/README.md)|[Medium](https://leetcode.com/problems/longest-consecutive-sequence)|-|-|[go](./0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.go)|-|-|-|-|
 |0136|[single number](0136-single-number/README.md)|[Easy](https://leetcode.com/problems/single-number/)|-|-|[go](./0136-single-number/0136-single-number.go)|-|-|-|-|
 |0151|[reverse words in a string](0151-reverse-words-in-a-string/README.md)|[Medium](https://leetcode.com/problems/reverse-words-in-a-string/?envType=study-plan-v2&envId=leetcode-75)|-|-|[go](./0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.go)|-|-|-|-|
+|0167|[two sum ii input array is sorted](0167-two-sum-ii-input-array-is-sorted/README.md)|[Medium](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|-|-|[go](./0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.go)|-|-|-|-|
 |0217|[contains duplicate](0217-contains-duplicate/README.md)|[Easy](https://leetcode.com/problems/contains-duplicate)|-|[python3](./0217-contains-duplicate/0217-contains-duplicate.py)|[go](./0217-contains-duplicate/0217-contains-duplicate.go)|[php](./0217-contains-duplicate/0217-contains-duplicate.php)|[rust](./0217-contains-duplicate/0217-contains-duplicate.rs)|[javascript](./0217-contains-duplicate/0217-contains-duplicate.js)|[typescript](./0217-contains-duplicate/0217-contains-duplicate.ts)|
 |0238|[product of array except self](0238-product-of-array-except-self/README.md)|[Medium](https://leetcode.com/problems/product-of-array-except-self)|-|-|[go](./0238-product-of-array-except-self/0238-product-of-array-except-self.go)|-|-|-|-|
 |0242|[valid anagram](0242-valid-anagram/README.md)|[Easy](https://leetcode.com/problems/valid-anagram)|-|[python3](./0242-valid-anagram/0242-valid-anagram.py)|[go](./0242-valid-anagram/0242-valid-anagram.go)|-|-|-|-|
@@ -87,31 +88,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0011-container-with-most-water](https://github.com/afasari/leetcode-solution/tree/master/0011-container-with-most-water) |
-| [0015-3sum](https://github.com/afasari/leetcode-solution/tree/master/0015-3sum) |
-| [0167-two-sum-ii-input-array-is-sorted](https://github.com/afasari/leetcode-solution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
-## Two Pointers
-|  |
-| ------- |
-| [0011-container-with-most-water](https://github.com/afasari/leetcode-solution/tree/master/0011-container-with-most-water) |
-| [0015-3sum](https://github.com/afasari/leetcode-solution/tree/master/0015-3sum) |
-| [0167-two-sum-ii-input-array-is-sorted](https://github.com/afasari/leetcode-solution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
-## Binary Search
-|  |
-| ------- |
-| [0167-two-sum-ii-input-array-is-sorted](https://github.com/afasari/leetcode-solution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
-## Sorting
-|  |
-| ------- |
-| [0015-3sum](https://github.com/afasari/leetcode-solution/tree/master/0015-3sum) |
-## Greedy
-|  |
-| ------- |
-| [0011-container-with-most-water](https://github.com/afasari/leetcode-solution/tree/master/0011-container-with-most-water) |
-<!---LeetCode Topics End-->
