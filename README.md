@@ -107,6 +107,7 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/afasari/leetcode-solution/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/afasari/leetcode-solution/tree/master/0783-search-in-a-binary-search-tree) |
 | [0904-leaf-similar-trees](https://github.com/afasari/leetcode-solution/tree/master/0904-leaf-similar-trees) |
 ## Depth-First Search
 |  |
@@ -121,5 +122,10 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/afasari/leetcode-solution/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/afasari/leetcode-solution/tree/master/0783-search-in-a-binary-search-tree) |
 | [0904-leaf-similar-trees](https://github.com/afasari/leetcode-solution/tree/master/0904-leaf-similar-trees) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/afasari/leetcode-solution/tree/master/0783-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
