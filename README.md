@@ -128,4 +128,12 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0783-search-in-a-binary-search-tree](https://github.com/afasari/leetcode-solution/tree/master/0783-search-in-a-binary-search-tree) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/afasari/leetcode-solution/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/afasari/leetcode-solution/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
