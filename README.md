@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 66
+Problem totals: 71
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -51,6 +51,7 @@ Problem totals: 66
 |0083|[remove duplicates from sorted list](0083-remove-duplicates-from-sorted-list/README.md)|[Easy](https://leetcode.com/problems/remove-duplicates-from-sorted-list)|-|-|[go](./0083-remove-duplicates-from-sorted-list/0083-remove-duplicates-from-sorted-list.go)|-|-|[javascript](./0083-remove-duplicates-from-sorted-list/0083-remove-duplicates-from-sorted-list.js)|-|
 |0088|[merge sorted array](0088-merge-sorted-array/README.md)|[Easy](https://leetcode.com/problems/merge-sorted-array/)|-|-|[go](./0088-merge-sorted-array/0088-merge-sorted-array.go)|-|-|-|-|
 |0100|[same tree](0100-same-tree/README.md)|[Easy](https://leetcode.com/problems/same-tree)|-|[python3](./0100-same-tree/0100-same-tree.py)|[go](./0100-same-tree/0100-same-tree.go)|-|-|-|-|
+|0104|[maximum depth of binary tree](0104-maximum-depth-of-binary-tree/README.md)|[Easy](https://leetcode.com/problems/maximum-depth-of-binary-tree)|-|-|[go](./0104-maximum-depth-of-binary-tree/0104-maximum-depth-of-binary-tree.go)|-|-|-|-|
 |0118|[pascals triangle](0118-pascals-triangle/README.md)|[Easy](https://leetcode.com/problems/pascals-triangle/)|-|-|[go](./0118-pascals-triangle/0118-pascals-triangle.go)|-|-|-|-|
 |0119|[pascals triangle ii](0119-pascals-triangle-ii/README.md)|[Easy](https://leetcode.com/problems/pascals-triangle-ii/)|-|-|[go](./0119-pascals-triangle-ii/0119-pascals-triangle-ii.go)|-|-|-|-|
 |0121|[best time to buy and sell stock](0121-best-time-to-buy-and-sell-stock/README.md)|[Easy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|-|-|[go](./0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.go)|-|-|-|-|
@@ -59,6 +60,7 @@ Problem totals: 66
 |0136|[single number](0136-single-number/README.md)|[Easy](https://leetcode.com/problems/single-number/)|-|-|[go](./0136-single-number/0136-single-number.go)|-|-|-|-|
 |0151|[reverse words in a string](0151-reverse-words-in-a-string/README.md)|[Medium](https://leetcode.com/problems/reverse-words-in-a-string/?envType=study-plan-v2&envId=leetcode-75)|-|-|[go](./0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.go)|-|-|-|-|
 |0167|[two sum ii input array is sorted](0167-two-sum-ii-input-array-is-sorted/README.md)|[Medium](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|-|-|[go](./0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.go)|-|-|-|-|
+|0206|[reverse linked list](0206-reverse-linked-list/README.md)|[Easy](https://leetcode.com/problems/reverse-linked-list)|-|-|[go](./0206-reverse-linked-list/0206-reverse-linked-list.go)|-|-|-|-|
 |0217|[contains duplicate](0217-contains-duplicate/README.md)|[Easy](https://leetcode.com/problems/contains-duplicate)|-|[python3](./0217-contains-duplicate/0217-contains-duplicate.py)|[go](./0217-contains-duplicate/0217-contains-duplicate.go)|[php](./0217-contains-duplicate/0217-contains-duplicate.php)|[rust](./0217-contains-duplicate/0217-contains-duplicate.rs)|[javascript](./0217-contains-duplicate/0217-contains-duplicate.js)|[typescript](./0217-contains-duplicate/0217-contains-duplicate.ts)|
 |0238|[product of array except self](0238-product-of-array-except-self/README.md)|[Medium](https://leetcode.com/problems/product-of-array-except-self)|-|-|[go](./0238-product-of-array-except-self/0238-product-of-array-except-self.go)|-|-|-|-|
 |0242|[valid anagram](0242-valid-anagram/README.md)|[Easy](https://leetcode.com/problems/valid-anagram)|-|[python3](./0242-valid-anagram/0242-valid-anagram.py)|[go](./0242-valid-anagram/0242-valid-anagram.go)|-|-|-|-|
@@ -70,6 +72,9 @@ Problem totals: 66
 |0605|[can place flowers](0605-can-place-flowers/README.md)|[Easy](https://leetcode.com/problems/can-place-flowers/)|-|-|[go](./0605-can-place-flowers/0605-can-place-flowers.go)|-|-|-|-|
 |0643|[maximum average subarray i](0643-maximum-average-subarray-i/README.md)|[Easy](https://leetcode.com/problems/maximum-average-subarray-i)|-|-|[go](./0643-maximum-average-subarray-i/0643-maximum-average-subarray-i.go)|-|-|-|-|
 |0724|[find pivot index](0724-find-pivot-index/README.md)|[Easy](https://leetcode.com/problems/find-pivot-index)|-|-|[go](./0724-find-pivot-index/0724-find-pivot-index.go)|-|-|-|-|
+|0783|[search in a binary search tree](0783-search-in-a-binary-search-tree/README.md)|[Easy](https://leetcode.com/problems/search-in-a-binary-search-tree)|-|-|[go](./0783-search-in-a-binary-search-tree/0783-search-in-a-binary-search-tree.go)|-|-|-|-|
+|0904|[leaf similar trees](0904-leaf-similar-trees/README.md)|[Easy](https://leetcode.com/problems/leaf-similar-trees)|-|-|[go](./0904-leaf-similar-trees/0904-leaf-similar-trees.go)|-|-|-|-|
+|0969|[number of recent calls](0969-number-of-recent-calls/README.md)|[Easy](https://leetcode.com/problems/number-of-recent-calls)|-|-|[go](./0969-number-of-recent-calls/0969-number-of-recent-calls.go)|-|-|-|-|
 |1071|[greatest common divisor of strings](1071-greatest-common-divisor-of-strings/README.md)|[Easy](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|-|-|[go](./1071-greatest-common-divisor-of-strings/1071-greatest-common-divisor-of-strings.go)|-|-|-|-|
 |1319|[unique number of occurrences](1319-unique-number-of-occurrences/README.md)|[Easy](https://leetcode.com/problems/unique-number-of-occurrences)|-|-|[go](./1319-unique-number-of-occurrences/1319-unique-number-of-occurrences.go)|-|-|-|-|
 |1392|[find the difference of two arrays](1392-find-the-difference-of-two-arrays/README.md)|[Easy](https://leetcode.com/problems/find-the-difference-of-two-arrays/?envType=study-plan-v2&envId=leetcode-75)|-|-|[go](./1392-find-the-difference-of-two-arrays/1392-find-the-difference-of-two-arrays.go)|-|-|-|-|
@@ -88,52 +93,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Design
-|  |
-| ------- |
-| [0969-number-of-recent-calls](https://github.com/afasari/leetcode-solution/tree/master/0969-number-of-recent-calls) |
-## Queue
-|  |
-| ------- |
-| [0969-number-of-recent-calls](https://github.com/afasari/leetcode-solution/tree/master/0969-number-of-recent-calls) |
-## Data Stream
-|  |
-| ------- |
-| [0969-number-of-recent-calls](https://github.com/afasari/leetcode-solution/tree/master/0969-number-of-recent-calls) |
-## Tree
-|  |
-| ------- |
-| [0104-maximum-depth-of-binary-tree](https://github.com/afasari/leetcode-solution/tree/master/0104-maximum-depth-of-binary-tree) |
-| [0783-search-in-a-binary-search-tree](https://github.com/afasari/leetcode-solution/tree/master/0783-search-in-a-binary-search-tree) |
-| [0904-leaf-similar-trees](https://github.com/afasari/leetcode-solution/tree/master/0904-leaf-similar-trees) |
-## Depth-First Search
-|  |
-| ------- |
-| [0104-maximum-depth-of-binary-tree](https://github.com/afasari/leetcode-solution/tree/master/0104-maximum-depth-of-binary-tree) |
-| [0904-leaf-similar-trees](https://github.com/afasari/leetcode-solution/tree/master/0904-leaf-similar-trees) |
-## Breadth-First Search
-|  |
-| ------- |
-| [0104-maximum-depth-of-binary-tree](https://github.com/afasari/leetcode-solution/tree/master/0104-maximum-depth-of-binary-tree) |
-## Binary Tree
-|  |
-| ------- |
-| [0104-maximum-depth-of-binary-tree](https://github.com/afasari/leetcode-solution/tree/master/0104-maximum-depth-of-binary-tree) |
-| [0783-search-in-a-binary-search-tree](https://github.com/afasari/leetcode-solution/tree/master/0783-search-in-a-binary-search-tree) |
-| [0904-leaf-similar-trees](https://github.com/afasari/leetcode-solution/tree/master/0904-leaf-similar-trees) |
-## Binary Search Tree
-|  |
-| ------- |
-| [0783-search-in-a-binary-search-tree](https://github.com/afasari/leetcode-solution/tree/master/0783-search-in-a-binary-search-tree) |
-## Linked List
-|  |
-| ------- |
-| [0206-reverse-linked-list](https://github.com/afasari/leetcode-solution/tree/master/0206-reverse-linked-list) |
-## Recursion
-|  |
-| ------- |
-| [0206-reverse-linked-list](https://github.com/afasari/leetcode-solution/tree/master/0206-reverse-linked-list) |
-<!---LeetCode Topics End-->
