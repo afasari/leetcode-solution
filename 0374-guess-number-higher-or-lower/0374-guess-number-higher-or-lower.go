@@ -8,9 +8,24 @@
  */
 
 func guessNumber(n int) int {
-    return sort.Search(n, func (i int) bool {
-        return guess(1+i) == -1
-    })
+    // return sort.Search(n, func (i int) bool {
+    //     return guess(1+i) == -1
+    // })
+
+	start, end := 1, n
+	for start <= end {
+		mid := (start + end) / 2
+		switch guess(mid) {
+		case -1:
+			end = mid - 1
+		case 1:
+			start = mid + 1
+		default:
+			return mid
+		}
+	}
+    return 0
+    
     l, r, m := 1, n, 0
     for l <= r{
         m = (l + r) >> 1
