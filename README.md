@@ -104,4 +104,12 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0443-string-compression](https://github.com/afasari/leetcode-solution/tree/master/0443-string-compression) |
+## Binary Search
+|  |
+| ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/afasari/leetcode-solution/tree/master/0374-guess-number-higher-or-lower) |
+## Interactive
+|  |
+| ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/afasari/leetcode-solution/tree/master/0374-guess-number-higher-or-lower) |
 <!---LeetCode Topics End-->
