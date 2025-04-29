@@ -99,6 +99,7 @@ python3 readme-generator.py
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/afasari/leetcode-solution/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/afasari/leetcode-solution/tree/master/0042-trapping-rain-water) |
 | [0443-string-compression](https://github.com/afasari/leetcode-solution/tree/master/0443-string-compression) |
 ## String
@@ -116,6 +117,7 @@ python3 readme-generator.py
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/afasari/leetcode-solution/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/afasari/leetcode-solution/tree/master/0042-trapping-rain-water) |
 ## Dynamic Programming
 |  |
@@ -129,4 +131,8 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/afasari/leetcode-solution/tree/master/0042-trapping-rain-water) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/afasari/leetcode-solution/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
