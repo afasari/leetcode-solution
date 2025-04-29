@@ -99,6 +99,7 @@ python3 readme-generator.py
 ## Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/afasari/leetcode-solution/tree/master/0042-trapping-rain-water) |
 | [0443-string-compression](https://github.com/afasari/leetcode-solution/tree/master/0443-string-compression) |
 ## String
 |  |
@@ -112,4 +113,20 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/afasari/leetcode-solution/tree/master/0374-guess-number-higher-or-lower) |
+## Array
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/afasari/leetcode-solution/tree/master/0042-trapping-rain-water) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/afasari/leetcode-solution/tree/master/0042-trapping-rain-water) |
+## Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/afasari/leetcode-solution/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/afasari/leetcode-solution/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
