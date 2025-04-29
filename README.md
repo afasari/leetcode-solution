@@ -102,6 +102,7 @@ python3 readme-generator.py
 | [0011-container-with-most-water](https://github.com/afasari/leetcode-solution/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/afasari/leetcode-solution/tree/master/0042-trapping-rain-water) |
 | [0443-string-compression](https://github.com/afasari/leetcode-solution/tree/master/0443-string-compression) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/afasari/leetcode-solution/tree/master/1798-max-number-of-k-sum-pairs) |
 ## String
 |  |
 | ------- |
@@ -119,6 +120,7 @@ python3 readme-generator.py
 | ------- |
 | [0011-container-with-most-water](https://github.com/afasari/leetcode-solution/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/afasari/leetcode-solution/tree/master/0042-trapping-rain-water) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/afasari/leetcode-solution/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -135,4 +137,12 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/afasari/leetcode-solution/tree/master/0011-container-with-most-water) |
+## Hash Table
+|  |
+| ------- |
+| [1798-max-number-of-k-sum-pairs](https://github.com/afasari/leetcode-solution/tree/master/1798-max-number-of-k-sum-pairs) |
+## Sorting
+|  |
+| ------- |
+| [1798-max-number-of-k-sum-pairs](https://github.com/afasari/leetcode-solution/tree/master/1798-max-number-of-k-sum-pairs) |
 <!---LeetCode Topics End-->
