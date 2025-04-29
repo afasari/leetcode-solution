@@ -1,24 +1,28 @@
 func maxArea(height []int) int {
-    max := 0
-    lh := len(height)
-    if lh <2{
-        return 0
+    l, water := 0, 0
+    r := len(height)-1
+
+    for l < r {
+        hl := height[l]
+        hr := height[r]
+        minH := hl
+
+        if hl > hr{
+            minH = hr
+        }
+
+        temp := (r-l) * minH
+        if temp > water {
+            water = temp
+        }
+
+        if hl > hr {
+            r--
+        } else {
+            l++
+        }
     }
+
+    return water
     
-    left := 0
-    right := lh-1
-    for left < right{
-        var area int
-        if height[left] > height[right]{
-            area = height[right] * (right-left)
-            right--
-        } else{
-            area = height[left] * (right-left)
-            left++
-        }
-        if area > max{
-            max = area
-        }
-    }
-    return max
 }
