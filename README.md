@@ -107,6 +107,7 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0443-string-compression](https://github.com/afasari/leetcode-solution/tree/master/0443-string-compression) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/afasari/leetcode-solution/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Binary Search
 |  |
 | ------- |
@@ -145,4 +146,8 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [1798-max-number-of-k-sum-pairs](https://github.com/afasari/leetcode-solution/tree/master/1798-max-number-of-k-sum-pairs) |
+## Sliding Window
+|  |
+| ------- |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/afasari/leetcode-solution/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 <!---LeetCode Topics End-->
