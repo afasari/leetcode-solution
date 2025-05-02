@@ -25,7 +25,7 @@ LANGUAGES = {
 }
 
 def valid_filename(filename):
- if filename == '.git' or filename == '.github' or filename == 'readme-generator.py' or filename == 'README.md' or filename == 'README-TEMPLATE.md' or filename == 'stats.json' :
+ if filename == '.git' or filename == '.github' or filename == 'readme-generator.py' or filename == 'README.md' or filename == 'README-TEMPLATE.md' or filename == 'stats.json' or filename == '_config.yml' :
    return False
  return True
 
