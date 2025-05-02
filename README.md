@@ -89,8 +89,8 @@ Problem totals: 81
 |1768|[merge strings alternately](1768-merge-strings-alternately/README.md)|[Easy](https://leetcode.com/problems/merge-strings-alternately/)|-|-|[go](./1768-merge-strings-alternately/1768-merge-strings-alternately.go)|-|-|-|-|
 |1777|[determine if two strings are close](1777-determine-if-two-strings-are-close/README.md)|[Medium](https://leetcode.com/problems/determine-if-two-strings-are-close)|-|-|[go](./1777-determine-if-two-strings-are-close/1777-determine-if-two-strings-are-close.go)|-|-|-|-|
 |1798|[max number of k sum pairs](1798-max-number-of-k-sum-pairs/README.md)|[Medium](https://leetcode.com/problems/max-number-of-k-sum-pairs)|-|-|[go](./1798-max-number-of-k-sum-pairs/1798-max-number-of-k-sum-pairs.go)|-|-|-|-|
-|1833|[find the highest altitude](1833-find-the-highest-altitude/README.md)|[Easy](https://leetcode.com/problems/find-the-highest-altitude)|-|-|-|-|-|-|-|
-|2428|[equal row and column pairs](2428-equal-row-and-column-pairs/README.md)|[Medium](https://leetcode.com/problems/equal-row-and-column-pairs)|-|-|-|-|-|-|-|
+|1833|[find the highest altitude](1833-find-the-highest-altitude/README.md)|[Easy](https://leetcode.com/problems/find-the-highest-altitude)|-|-|[go](./1833-find-the-highest-altitude/1833-find-the-highest-altitude.go)|-|-|-|-|
+|2428|[equal row and column pairs](2428-equal-row-and-column-pairs/README.md)|[Medium](https://leetcode.com/problems/equal-row-and-column-pairs)|-|-|[go](./2428-equal-row-and-column-pairs/2428-equal-row-and-column-pairs.go)|-|-|-|-|
 
 ## Readme Generator
 
@@ -103,28 +103,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [1833-find-the-highest-altitude](https://github.com/afasari/leetcode-solution/tree/master/1833-find-the-highest-altitude) |
-| [2428-equal-row-and-column-pairs](https://github.com/afasari/leetcode-solution/tree/master/2428-equal-row-and-column-pairs) |
-## Prefix Sum
-|  |
-| ------- |
-| [1833-find-the-highest-altitude](https://github.com/afasari/leetcode-solution/tree/master/1833-find-the-highest-altitude) |
-## Hash Table
-|  |
-| ------- |
-| [2428-equal-row-and-column-pairs](https://github.com/afasari/leetcode-solution/tree/master/2428-equal-row-and-column-pairs) |
-## Matrix
-|  |
-| ------- |
-| [2428-equal-row-and-column-pairs](https://github.com/afasari/leetcode-solution/tree/master/2428-equal-row-and-column-pairs) |
-## Simulation
-|  |
-| ------- |
-| [2428-equal-row-and-column-pairs](https://github.com/afasari/leetcode-solution/tree/master/2428-equal-row-and-column-pairs) |
-<!---LeetCode Topics End-->
