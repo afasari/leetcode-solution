@@ -115,4 +115,20 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/afasari/leetcode-solution/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+## Hash Table
+|  |
+| ------- |
+| [1777-determine-if-two-strings-are-close](https://github.com/afasari/leetcode-solution/tree/master/1777-determine-if-two-strings-are-close) |
+## String
+|  |
+| ------- |
+| [1777-determine-if-two-strings-are-close](https://github.com/afasari/leetcode-solution/tree/master/1777-determine-if-two-strings-are-close) |
+## Sorting
+|  |
+| ------- |
+| [1777-determine-if-two-strings-are-close](https://github.com/afasari/leetcode-solution/tree/master/1777-determine-if-two-strings-are-close) |
+## Counting
+|  |
+| ------- |
+| [1777-determine-if-two-strings-are-close](https://github.com/afasari/leetcode-solution/tree/master/1777-determine-if-two-strings-are-close) |
 <!---LeetCode Topics End-->
