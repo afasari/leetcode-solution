@@ -25,93 +25,115 @@ LANGUAGES = {
 }
 
 def valid_filename(filename):
- if filename == '.git' or filename == '.github' or filename == 'readme-generator.py' or filename == 'README.md' or filename == 'README-TEMPLATE.md' or filename == 'stats.json' or filename == '_config.yml' :
-   return False
- return True
+    excluded_files = {'.git', '.github', 'readme-generator.py', 'README.md', 
+                     'README-TEMPLATE.md', 'stats.json', '_config.yml'}
+    return filename not in excluded_files
 
 def format_filename(filename, language):
-  words = filename.split('-')
-  index = words[0]
-  title = ' '.join(words[1:])
-  url = './%s/%s' % (filename , filename+'.'+LANGUAGES[language])
-  logger.info("[%s] - %s - %s" % (index, title, url))
-  return index, title, url
+    words = filename.split('-')
+    index = words[0]
+    title = ' '.join(words[1:])
+    url = os.path.join('.', filename, f"{filename}.{LANGUAGES[language]}")
+    logger.info(f"[{index}] - {title} - {url}")
+    return index, title, url
 
 def generate_markdown_table(questions):
-  logger.info('Starting generate markdown table.')
-  table = """
+    logger.info('Starting generate markdown table.')
+    table = """
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
   """
 
-  items = list(map(lambda item: item.to_markdown(), questions.values()))
-  table = table + "\n".join(items)
-  logger.info('Finish generate markdown table.')
-  return table
+    items = list(map(lambda item: item.to_markdown(), questions.values()))
+    table = table + "\n".join(items)
+    logger.info('Finish generate markdown table.')
+    return table
 
 class Question:
-  def __init__(self, index, title, title_url):
-    self.index = index
-    self.title = title
-    self.title_url = title_url
-    self.solutions = {}
+    def __init__(self, index, title, title_url):
+        self.index = index
+        self.title = title
+        self.title_url = title_url
+        self.solutions = {}
 
-  def add_solution(self, language, url):
-    self.solutions[language] = url
+    def add_solution(self, language, url):
+        self.solutions[language] = url
 
-  def to_markdown(self):
-    java_url = "[java](%s)" % (self.solutions['java']) if 'java' in self.solutions and os.path.exists(self.solutions['java']) else "-"
-    python_url = "[python3](%s)" % (self.solutions['python3']) if 'python3' in self.solutions and os.path.exists(self.solutions['python3']) else "-"
-    go_url = "[go](%s)" % (self.solutions['go']) if 'go' in self.solutions and os.path.exists(self.solutions['go']) else "-"
-    php_url = "[php](%s)" % (self.solutions['php']) if 'php' in self.solutions and os.path.exists(self.solutions['php']) else "-"
-    rust_url = "[rust](%s)" % (self.solutions['rust']) if 'rust' in self.solutions and os.path.exists(self.solutions['rust']) else "-"
-    javascript_url = "[javascript](%s)" % (self.solutions['javascript']) if 'javascript' in self.solutions and os.path.exists(self.solutions['javascript']) else "-"
-    typescript_url = "[typescript](%s)" % (self.solutions['typescript']) if 'typescript' in self.solutions and os.path.exists(self.solutions['typescript']) else "-"
-    title_url = "[%s](%s/README.md)" % (self.title, self.title_url)
+    def _get_solution_url(self, language):
+        if language in self.solutions and os.path.exists(self.solutions[language]):
+            return f"[{language}]({self.solutions[language]})"
+        return "-"
 
-    difficulty = ''
-    with open('./'+self.title_url+'/README.md') as f:
-     readme_problem = f.readline()
-     difficulty_reg = "<h3>(.*?)</h3>"
-     problem_url = re.search(r'href=[\'"]?([^\'" >]+)', readme_problem)
-     if problem_url:
-      difficulty = "[%s](%s)" % (re.findall(difficulty_reg, readme_problem)[0], problem_url.group(1))
-     else:
-      difficulty = "%s" % (re.findall(difficulty_reg, readme_problem)[0])
-    markdown = "|%s|%s|%s|%s|%s|%s|%s|%s|%s|%s|" % (self.index, title_url, difficulty, java_url, python_url, go_url, php_url, rust_url, javascript_url, typescript_url)
-    return markdown
+    def _get_difficulty(self):
+        readme_path = os.path.join('.', self.title_url, 'README.md')
+        try:
+            with open(readme_path) as f:
+                readme_problem = f.readline()
+                difficulty_reg = "<h3>(.*?)</h3>"
+                problem_url = re.search(r'href=[\'"]?([^\'" >]+)', readme_problem)
+                if problem_url:
+                    return "[%s](%s)" % (re.findall(difficulty_reg, readme_problem)[0], problem_url.group(1))
+                return "%s" % (re.findall(difficulty_reg, readme_problem)[0])
+        except Exception as e:
+            logger.error(f"Error reading difficulty from {readme_path}: {str(e)}")
+            return "Unknown"
+
+    def to_markdown(self):
+        solution_urls = {lang: self._get_solution_url(lang) for lang in choosedLanguages}
+        title_url = f"[{self.title}]({self.title_url}/README.md)"
+        difficulty = self._get_difficulty()
+        
+        return "|{}|{}|{}|{}|{}|{}|{}|{}|{}|{}|".format(
+            self.index, title_url, difficulty,
+            solution_urls['java'],
+            solution_urls['python3'],
+            solution_urls['go'],
+            solution_urls['php'],
+            solution_urls['rust'],
+            solution_urls['javascript'],
+            solution_urls['typescript']
+        )
+
+def main():
+    try:
+        logger.info('Starting read local solutions and generate question list')
+        questions = {}
+        folder_name = os.path.abspath(os.path.dirname(__file__))
+
+        # Scan files once and process solutions
+        for filename in os.listdir(folder_name):
+            if valid_filename(filename):
+                for language in choosedLanguages:
+                    index, title, url = format_filename(filename, language)
+                    if index not in questions:
+                        questions[index] = Question(index, title, filename)
+                    questions[index].add_solution(language, url)
+
+        sorted_questions = collections.OrderedDict(sorted(questions.items()))
+        logger.info(f'Found {len(sorted_questions)} questions')
+
+        # Generate README
+        template_path = os.path.join(folder_name, 'README-TEMPLATE.md')
+        readme_path = os.path.join(folder_name, 'README.md')
+
+        if not os.path.exists(template_path):
+            raise FileNotFoundError(f"Template file not found: {template_path}")
+
+        with open(template_path, 'r') as template, open(readme_path, 'w') as f:
+            logger.info('Starting write file')
+            for line in template.readlines():
+                if TEMPLATE_TABLE_TAG in line:
+                    table = generate_markdown_table(sorted_questions) + "\n"
+                    f.write(table)
+                elif TEMPLATE_COUNT_TAG in line:
+                    f.write(f'Problem totals: {len(sorted_questions)}')
+                else:
+                    f.write(line)
+        logger.info('Finished!')
+
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        exit(1)
 
 if __name__ == "__main__":
-  logger.info('Starting read local solutions and generate question list')
-  
-  # - get all file names
-  questions = {}
-  for language in choosedLanguages:
-    
-    folderName = "%s" % (os.path.abspath(os.path.dirname(__file__)))
-    for filename in os.listdir(folderName):
-     
-     if valid_filename(filename):
-      index, title, url = format_filename(filename, language)
-      if index not in questions:
-        questions[index] = Question(index, title, filename)
-      questions[index].add_solution(language, url)
-    sortedQuestions = collections.OrderedDict(sorted(questions.items()))
-    logger.info('Finish generate question list, there are %d questions' % (len(sortedQuestions)))  
-    
-    # - Read template and generate README.md
-    templatePath = "%s/%s" % (os.path.abspath(os.path.dirname(__file__)), 'README-template.md')
-    readmePath = "%s/%s" % (os.path.abspath(os.path.dirname(__file__)), 'README.md')
-
-    with open('README-TEMPLATE.md', 'r') as template, open('README.md', 'w') as f:
-      logger.info('Starting write file')
-      for line in template.readlines():
-        if TEMPLATE_TABLE_TAG in line:
-          table = generate_markdown_table(sortedQuestions) + "\n"
-          f.write(table)
-        elif TEMPLATE_COUNT_TAG in line:
-          count = 'Problem totals: %s' % len(sortedQuestions)
-          f.write(count)
-        else:
-          f.write(line)
-    logger.info('Finished!')
+    main()

@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 78
+Problem totals: 81
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -85,9 +85,12 @@ Problem totals: 78
 |1392|[find the difference of two arrays](1392-find-the-difference-of-two-arrays/README.md)|[Easy](https://leetcode.com/problems/find-the-difference-of-two-arrays/?envType=study-plan-v2&envId=leetcode-75)|-|-|[go](./1392-find-the-difference-of-two-arrays/1392-find-the-difference-of-two-arrays.go)|-|-|-|-|
 |1431|[kids with the greatest number of candies](1431-kids-with-the-greatest-number-of-candies/README.md)|[Easy](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|-|-|[go](./1431-kids-with-the-greatest-number-of-candies/1431-kids-with-the-greatest-number-of-candies.go)|-|-|-|-|
 |1567|[maximum number of vowels in a substring of given length](1567-maximum-number-of-vowels-in-a-substring-of-given-length/README.md)|[Medium](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)|-|-|[go](./1567-maximum-number-of-vowels-in-a-substring-of-given-length/1567-maximum-number-of-vowels-in-a-substring-of-given-length.go)|-|-|-|-|
+|1586|[longest subarray of 1s after deleting one element](1586-longest-subarray-of-1s-after-deleting-one-element/README.md)|[Medium](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)|-|-|[go](./1586-longest-subarray-of-1s-after-deleting-one-element/1586-longest-subarray-of-1s-after-deleting-one-element.go)|-|-|-|-|
 |1768|[merge strings alternately](1768-merge-strings-alternately/README.md)|[Easy](https://leetcode.com/problems/merge-strings-alternately/)|-|-|[go](./1768-merge-strings-alternately/1768-merge-strings-alternately.go)|-|-|-|-|
+|1777|[determine if two strings are close](1777-determine-if-two-strings-are-close/README.md)|[Medium](https://leetcode.com/problems/determine-if-two-strings-are-close)|-|-|[go](./1777-determine-if-two-strings-are-close/1777-determine-if-two-strings-are-close.go)|-|-|-|-|
 |1798|[max number of k sum pairs](1798-max-number-of-k-sum-pairs/README.md)|[Medium](https://leetcode.com/problems/max-number-of-k-sum-pairs)|-|-|[go](./1798-max-number-of-k-sum-pairs/1798-max-number-of-k-sum-pairs.go)|-|-|-|-|
 |1833|[find the highest altitude](1833-find-the-highest-altitude/README.md)|[Easy](https://leetcode.com/problems/find-the-highest-altitude)|-|-|-|-|-|-|-|
+|2428|[equal row and column pairs](2428-equal-row-and-column-pairs/README.md)|[Medium](https://leetcode.com/problems/equal-row-and-column-pairs)|-|-|-|-|-|-|-|
 
 ## Readme Generator
 
@@ -100,35 +103,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/afasari/leetcode-solution/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
-## Dynamic Programming
-|  |
-| ------- |
-| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/afasari/leetcode-solution/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
-## Sliding Window
-|  |
-| ------- |
-| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/afasari/leetcode-solution/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
-## Hash Table
-|  |
-| ------- |
-| [1777-determine-if-two-strings-are-close](https://github.com/afasari/leetcode-solution/tree/master/1777-determine-if-two-strings-are-close) |
-## String
-|  |
-| ------- |
-| [1777-determine-if-two-strings-are-close](https://github.com/afasari/leetcode-solution/tree/master/1777-determine-if-two-strings-are-close) |
-## Sorting
-|  |
-| ------- |
-| [1777-determine-if-two-strings-are-close](https://github.com/afasari/leetcode-solution/tree/master/1777-determine-if-two-strings-are-close) |
-## Counting
-|  |
-| ------- |
-| [1777-determine-if-two-strings-are-close](https://github.com/afasari/leetcode-solution/tree/master/1777-determine-if-two-strings-are-close) |
-<!---LeetCode Topics End-->
