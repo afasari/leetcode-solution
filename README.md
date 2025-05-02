@@ -103,3 +103,15 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1833-find-the-highest-altitude](https://github.com/afasari/leetcode-solution/tree/master/1833-find-the-highest-altitude) |
+## Prefix Sum
+|  |
+| ------- |
+| [1833-find-the-highest-altitude](https://github.com/afasari/leetcode-solution/tree/master/1833-find-the-highest-altitude) |
+<!---LeetCode Topics End-->
