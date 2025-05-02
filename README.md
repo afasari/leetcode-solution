@@ -103,3 +103,19 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+|  |
+| ------- |
+| [2470-removing-stars-from-a-string](https://github.com/afasari/leetcode-solution/tree/master/2470-removing-stars-from-a-string) |
+## Stack
+|  |
+| ------- |
+| [2470-removing-stars-from-a-string](https://github.com/afasari/leetcode-solution/tree/master/2470-removing-stars-from-a-string) |
+## Simulation
+|  |
+| ------- |
+| [2470-removing-stars-from-a-string](https://github.com/afasari/leetcode-solution/tree/master/2470-removing-stars-from-a-string) |
+<!---LeetCode Topics End-->
