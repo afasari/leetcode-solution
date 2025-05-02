@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 71
+Problem totals: 78
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -42,6 +42,7 @@ Problem totals: 71
 |0031|[next permutation](0031-next-permutation/README.md)|[Medium](https://leetcode.com/problems/next-permutation/)|-|-|[go](./0031-next-permutation/0031-next-permutation.go)|-|-|-|-|
 |0035|[search insert position](0035-search-insert-position/README.md)|[Easy](https://leetcode.com/problems/search-insert-position/)|-|-|[go](./0035-search-insert-position/0035-search-insert-position.go)|-|-|-|-|
 |0036|[valid sudoku](0036-valid-sudoku/README.md)|[Medium](https://leetcode.com/problems/valid-sudoku)|-|-|[go](./0036-valid-sudoku/0036-valid-sudoku.go)|-|-|-|-|
+|0042|[trapping rain water](0042-trapping-rain-water/README.md)|[Hard](https://leetcode.com/problems/trapping-rain-water)|-|-|[go](./0042-trapping-rain-water/0042-trapping-rain-water.go)|-|-|-|-|
 |0049|[group anagrams](0049-group-anagrams/README.md)|[Medium](https://leetcode.com/problems/group-anagrams)|-|-|[go](./0049-group-anagrams/0049-group-anagrams.go)|-|-|-|-|
 |0058|[length of last word](0058-length-of-last-word/README.md)|[Easy](https://leetcode.com/problems/length-of-last-word/)|-|-|[go](./0058-length-of-last-word/0058-length-of-last-word.go)|-|-|-|-|
 |0066|[plus one](0066-plus-one/README.md)|[Easy](https://leetcode.com/problems/plus-one/)|-|-|[go](./0066-plus-one/0066-plus-one.go)|-|-|-|-|
@@ -68,18 +69,24 @@ Problem totals: 71
 |0334|[increasing triplet subsequence](0334-increasing-triplet-subsequence/README.md)|[Medium](https://leetcode.com/problems/increasing-triplet-subsequence)|-|-|[go](./0334-increasing-triplet-subsequence/0334-increasing-triplet-subsequence.go)|-|-|-|-|
 |0345|[reverse vowels of a string](0345-reverse-vowels-of-a-string/README.md)|[Easy](https://leetcode.com/problems/reverse-vowels-of-a-string)|-|-|[go](./0345-reverse-vowels-of-a-string/0345-reverse-vowels-of-a-string.go)|-|-|-|-|
 |0347|[top k frequent elements](0347-top-k-frequent-elements/README.md)|[Medium](https://leetcode.com/problems/top-k-frequent-elements)|-|-|[go](./0347-top-k-frequent-elements/0347-top-k-frequent-elements.go)|-|-|-|-|
+|0374|[guess number higher or lower](0374-guess-number-higher-or-lower/README.md)|[Easy](https://leetcode.com/problems/guess-number-higher-or-lower)|-|-|[go](./0374-guess-number-higher-or-lower/0374-guess-number-higher-or-lower.go)|-|-|-|-|
 |0392|[is subsequence](0392-is-subsequence/README.md)|[Easy](https://leetcode.com/problems/is-subsequence)|-|-|[go](./0392-is-subsequence/0392-is-subsequence.go)|-|-|-|-|
+|0443|[string compression](0443-string-compression/README.md)|[Medium](https://leetcode.com/problems/string-compression)|-|-|[go](./0443-string-compression/0443-string-compression.go)|-|-|-|-|
 |0605|[can place flowers](0605-can-place-flowers/README.md)|[Easy](https://leetcode.com/problems/can-place-flowers/)|-|-|[go](./0605-can-place-flowers/0605-can-place-flowers.go)|-|-|-|-|
 |0643|[maximum average subarray i](0643-maximum-average-subarray-i/README.md)|[Easy](https://leetcode.com/problems/maximum-average-subarray-i)|-|-|[go](./0643-maximum-average-subarray-i/0643-maximum-average-subarray-i.go)|-|-|-|-|
 |0724|[find pivot index](0724-find-pivot-index/README.md)|[Easy](https://leetcode.com/problems/find-pivot-index)|-|-|[go](./0724-find-pivot-index/0724-find-pivot-index.go)|-|-|-|-|
 |0783|[search in a binary search tree](0783-search-in-a-binary-search-tree/README.md)|[Easy](https://leetcode.com/problems/search-in-a-binary-search-tree)|-|-|[go](./0783-search-in-a-binary-search-tree/0783-search-in-a-binary-search-tree.go)|-|-|-|-|
 |0904|[leaf similar trees](0904-leaf-similar-trees/README.md)|[Easy](https://leetcode.com/problems/leaf-similar-trees)|-|-|[go](./0904-leaf-similar-trees/0904-leaf-similar-trees.go)|-|-|-|-|
 |0969|[number of recent calls](0969-number-of-recent-calls/README.md)|[Easy](https://leetcode.com/problems/number-of-recent-calls)|-|-|[go](./0969-number-of-recent-calls/0969-number-of-recent-calls.go)|-|-|-|-|
+|1046|[max consecutive ones iii](1046-max-consecutive-ones-iii/README.md)|[Medium](https://leetcode.com/problems/max-consecutive-ones-iii)|-|-|[go](./1046-max-consecutive-ones-iii/1046-max-consecutive-ones-iii.go)|-|-|-|-|
 |1071|[greatest common divisor of strings](1071-greatest-common-divisor-of-strings/README.md)|[Easy](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|-|-|[go](./1071-greatest-common-divisor-of-strings/1071-greatest-common-divisor-of-strings.go)|-|-|-|-|
+|1236|[n th tribonacci number](1236-n-th-tribonacci-number/README.md)|[Easy](https://leetcode.com/problems/n-th-tribonacci-number)|-|-|[go](./1236-n-th-tribonacci-number/1236-n-th-tribonacci-number.go)|-|-|-|-|
 |1319|[unique number of occurrences](1319-unique-number-of-occurrences/README.md)|[Easy](https://leetcode.com/problems/unique-number-of-occurrences)|-|-|[go](./1319-unique-number-of-occurrences/1319-unique-number-of-occurrences.go)|-|-|-|-|
 |1392|[find the difference of two arrays](1392-find-the-difference-of-two-arrays/README.md)|[Easy](https://leetcode.com/problems/find-the-difference-of-two-arrays/?envType=study-plan-v2&envId=leetcode-75)|-|-|[go](./1392-find-the-difference-of-two-arrays/1392-find-the-difference-of-two-arrays.go)|-|-|-|-|
 |1431|[kids with the greatest number of candies](1431-kids-with-the-greatest-number-of-candies/README.md)|[Easy](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|-|-|[go](./1431-kids-with-the-greatest-number-of-candies/1431-kids-with-the-greatest-number-of-candies.go)|-|-|-|-|
+|1567|[maximum number of vowels in a substring of given length](1567-maximum-number-of-vowels-in-a-substring-of-given-length/README.md)|[Medium](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)|-|-|[go](./1567-maximum-number-of-vowels-in-a-substring-of-given-length/1567-maximum-number-of-vowels-in-a-substring-of-given-length.go)|-|-|-|-|
 |1768|[merge strings alternately](1768-merge-strings-alternately/README.md)|[Easy](https://leetcode.com/problems/merge-strings-alternately/)|-|-|[go](./1768-merge-strings-alternately/1768-merge-strings-alternately.go)|-|-|-|-|
+|1798|[max number of k sum pairs](1798-max-number-of-k-sum-pairs/README.md)|[Medium](https://leetcode.com/problems/max-number-of-k-sum-pairs)|-|-|[go](./1798-max-number-of-k-sum-pairs/1798-max-number-of-k-sum-pairs.go)|-|-|-|-|
 |1833|[find the highest altitude](1833-find-the-highest-altitude/README.md)|[Easy](https://leetcode.com/problems/find-the-highest-altitude)|-|-|-|-|-|-|-|
 
 ## Readme Generator
@@ -93,61 +100,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Two Pointers
-|  |
-| ------- |
-| [0011-container-with-most-water](https://github.com/afasari/leetcode-solution/tree/master/0011-container-with-most-water) |
-| [0042-trapping-rain-water](https://github.com/afasari/leetcode-solution/tree/master/0042-trapping-rain-water) |
-| [0443-string-compression](https://github.com/afasari/leetcode-solution/tree/master/0443-string-compression) |
-| [1798-max-number-of-k-sum-pairs](https://github.com/afasari/leetcode-solution/tree/master/1798-max-number-of-k-sum-pairs) |
-## String
-|  |
-| ------- |
-| [0443-string-compression](https://github.com/afasari/leetcode-solution/tree/master/0443-string-compression) |
-| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/afasari/leetcode-solution/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
-## Binary Search
-|  |
-| ------- |
-| [0374-guess-number-higher-or-lower](https://github.com/afasari/leetcode-solution/tree/master/0374-guess-number-higher-or-lower) |
-## Interactive
-|  |
-| ------- |
-| [0374-guess-number-higher-or-lower](https://github.com/afasari/leetcode-solution/tree/master/0374-guess-number-higher-or-lower) |
-## Array
-|  |
-| ------- |
-| [0011-container-with-most-water](https://github.com/afasari/leetcode-solution/tree/master/0011-container-with-most-water) |
-| [0042-trapping-rain-water](https://github.com/afasari/leetcode-solution/tree/master/0042-trapping-rain-water) |
-| [1798-max-number-of-k-sum-pairs](https://github.com/afasari/leetcode-solution/tree/master/1798-max-number-of-k-sum-pairs) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0042-trapping-rain-water](https://github.com/afasari/leetcode-solution/tree/master/0042-trapping-rain-water) |
-## Stack
-|  |
-| ------- |
-| [0042-trapping-rain-water](https://github.com/afasari/leetcode-solution/tree/master/0042-trapping-rain-water) |
-## Monotonic Stack
-|  |
-| ------- |
-| [0042-trapping-rain-water](https://github.com/afasari/leetcode-solution/tree/master/0042-trapping-rain-water) |
-## Greedy
-|  |
-| ------- |
-| [0011-container-with-most-water](https://github.com/afasari/leetcode-solution/tree/master/0011-container-with-most-water) |
-## Hash Table
-|  |
-| ------- |
-| [1798-max-number-of-k-sum-pairs](https://github.com/afasari/leetcode-solution/tree/master/1798-max-number-of-k-sum-pairs) |
-## Sorting
-|  |
-| ------- |
-| [1798-max-number-of-k-sum-pairs](https://github.com/afasari/leetcode-solution/tree/master/1798-max-number-of-k-sum-pairs) |
-## Sliding Window
-|  |
-| ------- |
-| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/afasari/leetcode-solution/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
-<!---LeetCode Topics End-->
