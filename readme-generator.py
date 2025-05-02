@@ -103,7 +103,7 @@ if __name__ == "__main__":
     templatePath = "%s/%s" % (os.path.abspath(os.path.dirname(__file__)), 'README-template.md')
     readmePath = "%s/%s" % (os.path.abspath(os.path.dirname(__file__)), 'README.md')
 
-    with open('README-template.md', 'r') as template, open('README.md', 'w') as f:
+    with open('README-TEMPLATE.md', 'r') as template, open('README.md', 'w') as f:
       logger.info('Starting write file')
       for line in template.readlines():
         if TEMPLATE_TABLE_TAG in line:
