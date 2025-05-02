@@ -110,8 +110,21 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [1833-find-the-highest-altitude](https://github.com/afasari/leetcode-solution/tree/master/1833-find-the-highest-altitude) |
+| [2428-equal-row-and-column-pairs](https://github.com/afasari/leetcode-solution/tree/master/2428-equal-row-and-column-pairs) |
 ## Prefix Sum
 |  |
 | ------- |
 | [1833-find-the-highest-altitude](https://github.com/afasari/leetcode-solution/tree/master/1833-find-the-highest-altitude) |
+## Hash Table
+|  |
+| ------- |
+| [2428-equal-row-and-column-pairs](https://github.com/afasari/leetcode-solution/tree/master/2428-equal-row-and-column-pairs) |
+## Matrix
+|  |
+| ------- |
+| [2428-equal-row-and-column-pairs](https://github.com/afasari/leetcode-solution/tree/master/2428-equal-row-and-column-pairs) |
+## Simulation
+|  |
+| ------- |
+| [2428-equal-row-and-column-pairs](https://github.com/afasari/leetcode-solution/tree/master/2428-equal-row-and-column-pairs) |
 <!---LeetCode Topics End-->
