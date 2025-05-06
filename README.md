@@ -109,10 +109,12 @@ python3 readme-generator.py
 ## String
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/afasari/leetcode-solution/tree/master/0394-decode-string) |
 | [2470-removing-stars-from-a-string](https://github.com/afasari/leetcode-solution/tree/master/2470-removing-stars-from-a-string) |
 ## Stack
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/afasari/leetcode-solution/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/afasari/leetcode-solution/tree/master/0735-asteroid-collision) |
 | [2470-removing-stars-from-a-string](https://github.com/afasari/leetcode-solution/tree/master/2470-removing-stars-from-a-string) |
 ## Simulation
@@ -124,4 +126,8 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/afasari/leetcode-solution/tree/master/0735-asteroid-collision) |
+## Recursion
+|  |
+| ------- |
+| [0394-decode-string](https://github.com/afasari/leetcode-solution/tree/master/0394-decode-string) |
 <!---LeetCode Topics End-->
