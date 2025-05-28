@@ -109,6 +109,7 @@ python3 readme-generator.py
 ## String
 |  |
 | ------- |
+| [0345-reverse-vowels-of-a-string](https://github.com/afasari/leetcode-solution/tree/master/0345-reverse-vowels-of-a-string) |
 | [0394-decode-string](https://github.com/afasari/leetcode-solution/tree/master/0394-decode-string) |
 | [2470-removing-stars-from-a-string](https://github.com/afasari/leetcode-solution/tree/master/2470-removing-stars-from-a-string) |
 ## Stack
@@ -130,4 +131,8 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/afasari/leetcode-solution/tree/master/0394-decode-string) |
+## Two Pointers
+|  |
+| ------- |
+| [0345-reverse-vowels-of-a-string](https://github.com/afasari/leetcode-solution/tree/master/0345-reverse-vowels-of-a-string) |
 <!---LeetCode Topics End-->
