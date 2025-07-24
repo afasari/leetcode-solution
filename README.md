@@ -126,6 +126,7 @@ python3 readme-generator.py
 ## Array
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/afasari/leetcode-solution/tree/master/0056-merge-intervals) |
 | [0735-asteroid-collision](https://github.com/afasari/leetcode-solution/tree/master/0735-asteroid-collision) |
 ## Recursion
 |  |
@@ -135,4 +136,8 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0345-reverse-vowels-of-a-string](https://github.com/afasari/leetcode-solution/tree/master/0345-reverse-vowels-of-a-string) |
+## Sorting
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/afasari/leetcode-solution/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
