@@ -130,6 +130,7 @@ python3 readme-generator.py
 | [0136-single-number](https://github.com/afasari/leetcode-solution/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/afasari/leetcode-solution/tree/master/0137-single-number-ii) |
 | [0260-single-number-iii](https://github.com/afasari/leetcode-solution/tree/master/0260-single-number-iii) |
+| [0435-non-overlapping-intervals](https://github.com/afasari/leetcode-solution/tree/master/0435-non-overlapping-intervals) |
 | [0735-asteroid-collision](https://github.com/afasari/leetcode-solution/tree/master/0735-asteroid-collision) |
 ## Recursion
 |  |
@@ -143,6 +144,7 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/afasari/leetcode-solution/tree/master/0056-merge-intervals) |
+| [0435-non-overlapping-intervals](https://github.com/afasari/leetcode-solution/tree/master/0435-non-overlapping-intervals) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -154,4 +156,9 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0338-counting-bits](https://github.com/afasari/leetcode-solution/tree/master/0338-counting-bits) |
+| [0435-non-overlapping-intervals](https://github.com/afasari/leetcode-solution/tree/master/0435-non-overlapping-intervals) |
+## Greedy
+|  |
+| ------- |
+| [0435-non-overlapping-intervals](https://github.com/afasari/leetcode-solution/tree/master/0435-non-overlapping-intervals) |
 <!---LeetCode Topics End-->
