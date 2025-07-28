@@ -127,6 +127,7 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/afasari/leetcode-solution/tree/master/0056-merge-intervals) |
+| [0136-single-number](https://github.com/afasari/leetcode-solution/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/afasari/leetcode-solution/tree/master/0137-single-number-ii) |
 | [0260-single-number-iii](https://github.com/afasari/leetcode-solution/tree/master/0260-single-number-iii) |
 | [0735-asteroid-collision](https://github.com/afasari/leetcode-solution/tree/master/0735-asteroid-collision) |
@@ -145,6 +146,7 @@ python3 readme-generator.py
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/afasari/leetcode-solution/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/afasari/leetcode-solution/tree/master/0137-single-number-ii) |
 | [0260-single-number-iii](https://github.com/afasari/leetcode-solution/tree/master/0260-single-number-iii) |
 <!---LeetCode Topics End-->
