@@ -149,4 +149,9 @@ python3 readme-generator.py
 | [0136-single-number](https://github.com/afasari/leetcode-solution/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/afasari/leetcode-solution/tree/master/0137-single-number-ii) |
 | [0260-single-number-iii](https://github.com/afasari/leetcode-solution/tree/master/0260-single-number-iii) |
+| [0338-counting-bits](https://github.com/afasari/leetcode-solution/tree/master/0338-counting-bits) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0338-counting-bits](https://github.com/afasari/leetcode-solution/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
