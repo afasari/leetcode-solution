@@ -161,4 +161,8 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/afasari/leetcode-solution/tree/master/0435-non-overlapping-intervals) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/afasari/leetcode-solution/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
