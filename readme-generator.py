@@ -11,7 +11,7 @@ logger = logging.getLogger('readme-generator')
 logger.setLevel(logging.INFO)
 
 # - Config
-choosedLanguages = ['python3', 'java', 'go', 'rust', 'php', 'javascript', 'typescript']
+choosedLanguages = ['python3', 'java', 'go', 'rust', 'php', 'javascript', 'typescript', 'sql']
 TEMPLATE_TABLE_TAG = "{%-- TABLE --%}"
 TEMPLATE_COUNT_TAG = "{%-- COUNT --%}"
 LANGUAGES = {
@@ -21,7 +21,8 @@ LANGUAGES = {
   'rust': 'rs',
   'php': 'php',
   'javascript': 'js',
-  'typescript': 'ts'
+  'typescript': 'ts',
+  'sql': 'sql'
 }
 
 def valid_filename(filename):
@@ -40,8 +41,8 @@ def format_filename(filename, language):
 def generate_markdown_table(questions):
     logger.info('Starting generate markdown table.')
     table = """
-  | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript |
-  | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
+  | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript | SQL |
+  | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
   """
 
     items = list(map(lambda item: item.to_markdown(), questions.values()))
@@ -83,7 +84,7 @@ class Question:
         title_url = f"[{self.title}]({self.title_url}/README.md)"
         difficulty = self._get_difficulty()
         
-        return "|{}|{}|{}|{}|{}|{}|{}|{}|{}|{}|".format(
+        return "|{}|{}|{}|{}|{}|{}|{}|{}|{}|{}|{}|".format(
             self.index, title_url, difficulty,
             solution_urls['java'],
             solution_urls['python3'],
@@ -91,7 +92,8 @@ class Question:
             solution_urls['php'],
             solution_urls['rust'],
             solution_urls['javascript'],
-            solution_urls['typescript']
+            solution_urls['typescript'],
+            solution_urls['sql']
         )
 
 def main():
