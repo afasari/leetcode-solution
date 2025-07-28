@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 81
+Problem totals: 96
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -44,6 +44,7 @@ Problem totals: 81
 |0036|[valid sudoku](0036-valid-sudoku/README.md)|[Medium](https://leetcode.com/problems/valid-sudoku)|-|-|[go](./0036-valid-sudoku/0036-valid-sudoku.go)|-|-|-|-|
 |0042|[trapping rain water](0042-trapping-rain-water/README.md)|[Hard](https://leetcode.com/problems/trapping-rain-water)|-|-|[go](./0042-trapping-rain-water/0042-trapping-rain-water.go)|-|-|-|-|
 |0049|[group anagrams](0049-group-anagrams/README.md)|[Medium](https://leetcode.com/problems/group-anagrams)|-|-|[go](./0049-group-anagrams/0049-group-anagrams.go)|-|-|-|-|
+|0056|[merge intervals](0056-merge-intervals/README.md)|[Medium](https://leetcode.com/problems/merge-intervals)|-|-|[go](./0056-merge-intervals/0056-merge-intervals.go)|-|-|-|-|
 |0058|[length of last word](0058-length-of-last-word/README.md)|[Easy](https://leetcode.com/problems/length-of-last-word/)|-|-|[go](./0058-length-of-last-word/0058-length-of-last-word.go)|-|-|-|-|
 |0066|[plus one](0066-plus-one/README.md)|[Easy](https://leetcode.com/problems/plus-one/)|-|-|[go](./0066-plus-one/0066-plus-one.go)|-|-|-|-|
 |0067|[add binary](0067-add-binary/README.md)|[Easy](https://leetcode.com/problems/add-binary/)|-|-|[go](./0067-add-binary/0067-add-binary.go)|-|-|-|-|
@@ -58,39 +59,53 @@ Problem totals: 81
 |0121|[best time to buy and sell stock](0121-best-time-to-buy-and-sell-stock/README.md)|[Easy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|-|-|[go](./0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.go)|-|-|-|-|
 |0125|[valid palindrome](0125-valid-palindrome/README.md)|[Easy](https://leetcode.com/problems/valid-palindrome)|-|-|[go](./0125-valid-palindrome/0125-valid-palindrome.go)|-|-|-|-|
 |0128|[longest consecutive sequence](0128-longest-consecutive-sequence/README.md)|[Medium](https://leetcode.com/problems/longest-consecutive-sequence)|-|-|[go](./0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.go)|-|-|-|-|
-|0136|[single number](0136-single-number/README.md)|[Easy](https://leetcode.com/problems/single-number/)|-|-|[go](./0136-single-number/0136-single-number.go)|-|-|-|-|
+|0136|[single number](0136-single-number/README.md)|[Easy](https://leetcode.com/problems/single-number)|-|-|[go](./0136-single-number/0136-single-number.go)|-|-|-|-|
+|0137|[single number ii](0137-single-number-ii/README.md)|[Medium](https://leetcode.com/problems/single-number-ii)|-|-|[go](./0137-single-number-ii/0137-single-number-ii.go)|-|-|-|-|
 |0151|[reverse words in a string](0151-reverse-words-in-a-string/README.md)|[Medium](https://leetcode.com/problems/reverse-words-in-a-string/?envType=study-plan-v2&envId=leetcode-75)|-|-|[go](./0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.go)|-|-|-|-|
 |0167|[two sum ii input array is sorted](0167-two-sum-ii-input-array-is-sorted/README.md)|[Medium](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|-|-|[go](./0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.go)|-|-|-|-|
 |0206|[reverse linked list](0206-reverse-linked-list/README.md)|[Easy](https://leetcode.com/problems/reverse-linked-list)|-|-|[go](./0206-reverse-linked-list/0206-reverse-linked-list.go)|-|-|-|-|
 |0217|[contains duplicate](0217-contains-duplicate/README.md)|[Easy](https://leetcode.com/problems/contains-duplicate)|-|[python3](./0217-contains-duplicate/0217-contains-duplicate.py)|[go](./0217-contains-duplicate/0217-contains-duplicate.go)|[php](./0217-contains-duplicate/0217-contains-duplicate.php)|[rust](./0217-contains-duplicate/0217-contains-duplicate.rs)|[javascript](./0217-contains-duplicate/0217-contains-duplicate.js)|[typescript](./0217-contains-duplicate/0217-contains-duplicate.ts)|
 |0238|[product of array except self](0238-product-of-array-except-self/README.md)|[Medium](https://leetcode.com/problems/product-of-array-except-self)|-|-|[go](./0238-product-of-array-except-self/0238-product-of-array-except-self.go)|-|-|-|-|
 |0242|[valid anagram](0242-valid-anagram/README.md)|[Easy](https://leetcode.com/problems/valid-anagram)|-|[python3](./0242-valid-anagram/0242-valid-anagram.py)|[go](./0242-valid-anagram/0242-valid-anagram.go)|-|-|-|-|
+|0260|[single number iii](0260-single-number-iii/README.md)|[Medium](https://leetcode.com/problems/single-number-iii)|-|-|[go](./0260-single-number-iii/0260-single-number-iii.go)|-|-|-|-|
 |0283|[move zeroes](0283-move-zeroes/README.md)|[Easy](https://leetcode.com/problems/move-zeroes)|-|-|[go](./0283-move-zeroes/0283-move-zeroes.go)|-|-|-|-|
 |0334|[increasing triplet subsequence](0334-increasing-triplet-subsequence/README.md)|[Medium](https://leetcode.com/problems/increasing-triplet-subsequence)|-|-|[go](./0334-increasing-triplet-subsequence/0334-increasing-triplet-subsequence.go)|-|-|-|-|
+|0338|[counting bits](0338-counting-bits/README.md)|[Easy](https://leetcode.com/problems/counting-bits)|-|-|[go](./0338-counting-bits/0338-counting-bits.go)|-|-|-|-|
 |0345|[reverse vowels of a string](0345-reverse-vowels-of-a-string/README.md)|[Easy](https://leetcode.com/problems/reverse-vowels-of-a-string)|-|-|[go](./0345-reverse-vowels-of-a-string/0345-reverse-vowels-of-a-string.go)|-|-|-|-|
 |0347|[top k frequent elements](0347-top-k-frequent-elements/README.md)|[Medium](https://leetcode.com/problems/top-k-frequent-elements)|-|-|[go](./0347-top-k-frequent-elements/0347-top-k-frequent-elements.go)|-|-|-|-|
 |0374|[guess number higher or lower](0374-guess-number-higher-or-lower/README.md)|[Easy](https://leetcode.com/problems/guess-number-higher-or-lower)|-|-|[go](./0374-guess-number-higher-or-lower/0374-guess-number-higher-or-lower.go)|-|-|-|-|
 |0392|[is subsequence](0392-is-subsequence/README.md)|[Easy](https://leetcode.com/problems/is-subsequence)|-|-|[go](./0392-is-subsequence/0392-is-subsequence.go)|-|-|-|-|
+|0394|[decode string](0394-decode-string/README.md)|[Medium](https://leetcode.com/problems/decode-string)|-|-|[go](./0394-decode-string/0394-decode-string.go)|-|-|-|-|
+|0435|[non overlapping intervals](0435-non-overlapping-intervals/README.md)|[Medium](https://leetcode.com/problems/non-overlapping-intervals)|-|-|[go](./0435-non-overlapping-intervals/0435-non-overlapping-intervals.go)|-|-|-|-|
 |0443|[string compression](0443-string-compression/README.md)|[Medium](https://leetcode.com/problems/string-compression)|-|-|[go](./0443-string-compression/0443-string-compression.go)|-|-|-|-|
+|0584|[find customer referee](0584-find-customer-referee/README.md)|[Easy](https://leetcode.com/problems/find-customer-referee)|-|-|-|-|-|-|-|
+|0595|[big countries](0595-big-countries/README.md)|[Easy](https://leetcode.com/problems/big-countries)|-|-|-|-|-|-|-|
 |0605|[can place flowers](0605-can-place-flowers/README.md)|[Easy](https://leetcode.com/problems/can-place-flowers/)|-|-|[go](./0605-can-place-flowers/0605-can-place-flowers.go)|-|-|-|-|
 |0643|[maximum average subarray i](0643-maximum-average-subarray-i/README.md)|[Easy](https://leetcode.com/problems/maximum-average-subarray-i)|-|-|[go](./0643-maximum-average-subarray-i/0643-maximum-average-subarray-i.go)|-|-|-|-|
 |0724|[find pivot index](0724-find-pivot-index/README.md)|[Easy](https://leetcode.com/problems/find-pivot-index)|-|-|[go](./0724-find-pivot-index/0724-find-pivot-index.go)|-|-|-|-|
+|0735|[asteroid collision](0735-asteroid-collision/README.md)|[Medium](https://leetcode.com/problems/asteroid-collision)|-|-|[go](./0735-asteroid-collision/0735-asteroid-collision.go)|-|-|-|-|
 |0783|[search in a binary search tree](0783-search-in-a-binary-search-tree/README.md)|[Easy](https://leetcode.com/problems/search-in-a-binary-search-tree)|-|-|[go](./0783-search-in-a-binary-search-tree/0783-search-in-a-binary-search-tree.go)|-|-|-|-|
 |0904|[leaf similar trees](0904-leaf-similar-trees/README.md)|[Easy](https://leetcode.com/problems/leaf-similar-trees)|-|-|[go](./0904-leaf-similar-trees/0904-leaf-similar-trees.go)|-|-|-|-|
 |0969|[number of recent calls](0969-number-of-recent-calls/README.md)|[Easy](https://leetcode.com/problems/number-of-recent-calls)|-|-|[go](./0969-number-of-recent-calls/0969-number-of-recent-calls.go)|-|-|-|-|
 |1046|[max consecutive ones iii](1046-max-consecutive-ones-iii/README.md)|[Medium](https://leetcode.com/problems/max-consecutive-ones-iii)|-|-|[go](./1046-max-consecutive-ones-iii/1046-max-consecutive-ones-iii.go)|-|-|-|-|
 |1071|[greatest common divisor of strings](1071-greatest-common-divisor-of-strings/README.md)|[Easy](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|-|-|[go](./1071-greatest-common-divisor-of-strings/1071-greatest-common-divisor-of-strings.go)|-|-|-|-|
+|1153|[product sales analysis i](1153-product-sales-analysis-i/README.md)|[Easy](https://leetcode.com/problems/product-sales-analysis-i)|-|-|-|-|-|-|-|
 |1236|[n th tribonacci number](1236-n-th-tribonacci-number/README.md)|[Easy](https://leetcode.com/problems/n-th-tribonacci-number)|-|-|[go](./1236-n-th-tribonacci-number/1236-n-th-tribonacci-number.go)|-|-|-|-|
+|1258|[article views i](1258-article-views-i/README.md)|[Easy](https://leetcode.com/problems/article-views-i)|-|-|-|-|-|-|-|
 |1319|[unique number of occurrences](1319-unique-number-of-occurrences/README.md)|[Easy](https://leetcode.com/problems/unique-number-of-occurrences)|-|-|[go](./1319-unique-number-of-occurrences/1319-unique-number-of-occurrences.go)|-|-|-|-|
 |1392|[find the difference of two arrays](1392-find-the-difference-of-two-arrays/README.md)|[Easy](https://leetcode.com/problems/find-the-difference-of-two-arrays/?envType=study-plan-v2&envId=leetcode-75)|-|-|[go](./1392-find-the-difference-of-two-arrays/1392-find-the-difference-of-two-arrays.go)|-|-|-|-|
 |1431|[kids with the greatest number of candies](1431-kids-with-the-greatest-number-of-candies/README.md)|[Easy](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|-|-|[go](./1431-kids-with-the-greatest-number-of-candies/1431-kids-with-the-greatest-number-of-candies.go)|-|-|-|-|
+|1509|[replace employee id with the unique identifier](1509-replace-employee-id-with-the-unique-identifier/README.md)|[Easy](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier)|-|-|-|-|-|-|-|
 |1567|[maximum number of vowels in a substring of given length](1567-maximum-number-of-vowels-in-a-substring-of-given-length/README.md)|[Medium](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)|-|-|[go](./1567-maximum-number-of-vowels-in-a-substring-of-given-length/1567-maximum-number-of-vowels-in-a-substring-of-given-length.go)|-|-|-|-|
 |1586|[longest subarray of 1s after deleting one element](1586-longest-subarray-of-1s-after-deleting-one-element/README.md)|[Medium](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)|-|-|[go](./1586-longest-subarray-of-1s-after-deleting-one-element/1586-longest-subarray-of-1s-after-deleting-one-element.go)|-|-|-|-|
 |1768|[merge strings alternately](1768-merge-strings-alternately/README.md)|[Easy](https://leetcode.com/problems/merge-strings-alternately/)|-|-|[go](./1768-merge-strings-alternately/1768-merge-strings-alternately.go)|-|-|-|-|
 |1777|[determine if two strings are close](1777-determine-if-two-strings-are-close/README.md)|[Medium](https://leetcode.com/problems/determine-if-two-strings-are-close)|-|-|[go](./1777-determine-if-two-strings-are-close/1777-determine-if-two-strings-are-close.go)|-|-|-|-|
 |1798|[max number of k sum pairs](1798-max-number-of-k-sum-pairs/README.md)|[Medium](https://leetcode.com/problems/max-number-of-k-sum-pairs)|-|-|[go](./1798-max-number-of-k-sum-pairs/1798-max-number-of-k-sum-pairs.go)|-|-|-|-|
+|1827|[invalid tweets](1827-invalid-tweets/README.md)|[Easy](https://leetcode.com/problems/invalid-tweets)|-|-|-|-|-|-|-|
 |1833|[find the highest altitude](1833-find-the-highest-altitude/README.md)|[Easy](https://leetcode.com/problems/find-the-highest-altitude)|-|-|[go](./1833-find-the-highest-altitude/1833-find-the-highest-altitude.go)|-|-|-|-|
+|1908|[recyclable and low fat products](1908-recyclable-and-low-fat-products/README.md)|[Easy](https://leetcode.com/problems/recyclable-and-low-fat-products)|-|-|-|-|-|-|-|
 |2428|[equal row and column pairs](2428-equal-row-and-column-pairs/README.md)|[Medium](https://leetcode.com/problems/equal-row-and-column-pairs)|-|-|[go](./2428-equal-row-and-column-pairs/2428-equal-row-and-column-pairs.go)|-|-|-|-|
+|2470|[removing stars from a string](2470-removing-stars-from-a-string/README.md)|[Medium](https://leetcode.com/problems/removing-stars-from-a-string)|-|-|[go](./2470-removing-stars-from-a-string/2470-removing-stars-from-a-string.go)|-|-|-|-|
 
 ## Readme Generator
 
@@ -103,72 +118,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-|  |
-| ------- |
-| [0345-reverse-vowels-of-a-string](https://github.com/afasari/leetcode-solution/tree/master/0345-reverse-vowels-of-a-string) |
-| [0394-decode-string](https://github.com/afasari/leetcode-solution/tree/master/0394-decode-string) |
-| [2470-removing-stars-from-a-string](https://github.com/afasari/leetcode-solution/tree/master/2470-removing-stars-from-a-string) |
-## Stack
-|  |
-| ------- |
-| [0394-decode-string](https://github.com/afasari/leetcode-solution/tree/master/0394-decode-string) |
-| [0735-asteroid-collision](https://github.com/afasari/leetcode-solution/tree/master/0735-asteroid-collision) |
-| [2470-removing-stars-from-a-string](https://github.com/afasari/leetcode-solution/tree/master/2470-removing-stars-from-a-string) |
-## Simulation
-|  |
-| ------- |
-| [0735-asteroid-collision](https://github.com/afasari/leetcode-solution/tree/master/0735-asteroid-collision) |
-| [2470-removing-stars-from-a-string](https://github.com/afasari/leetcode-solution/tree/master/2470-removing-stars-from-a-string) |
-## Array
-|  |
-| ------- |
-| [0056-merge-intervals](https://github.com/afasari/leetcode-solution/tree/master/0056-merge-intervals) |
-| [0136-single-number](https://github.com/afasari/leetcode-solution/tree/master/0136-single-number) |
-| [0137-single-number-ii](https://github.com/afasari/leetcode-solution/tree/master/0137-single-number-ii) |
-| [0260-single-number-iii](https://github.com/afasari/leetcode-solution/tree/master/0260-single-number-iii) |
-| [0435-non-overlapping-intervals](https://github.com/afasari/leetcode-solution/tree/master/0435-non-overlapping-intervals) |
-| [0735-asteroid-collision](https://github.com/afasari/leetcode-solution/tree/master/0735-asteroid-collision) |
-## Recursion
-|  |
-| ------- |
-| [0394-decode-string](https://github.com/afasari/leetcode-solution/tree/master/0394-decode-string) |
-## Two Pointers
-|  |
-| ------- |
-| [0345-reverse-vowels-of-a-string](https://github.com/afasari/leetcode-solution/tree/master/0345-reverse-vowels-of-a-string) |
-## Sorting
-|  |
-| ------- |
-| [0056-merge-intervals](https://github.com/afasari/leetcode-solution/tree/master/0056-merge-intervals) |
-| [0435-non-overlapping-intervals](https://github.com/afasari/leetcode-solution/tree/master/0435-non-overlapping-intervals) |
-## Bit Manipulation
-|  |
-| ------- |
-| [0136-single-number](https://github.com/afasari/leetcode-solution/tree/master/0136-single-number) |
-| [0137-single-number-ii](https://github.com/afasari/leetcode-solution/tree/master/0137-single-number-ii) |
-| [0260-single-number-iii](https://github.com/afasari/leetcode-solution/tree/master/0260-single-number-iii) |
-| [0338-counting-bits](https://github.com/afasari/leetcode-solution/tree/master/0338-counting-bits) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0338-counting-bits](https://github.com/afasari/leetcode-solution/tree/master/0338-counting-bits) |
-| [0435-non-overlapping-intervals](https://github.com/afasari/leetcode-solution/tree/master/0435-non-overlapping-intervals) |
-## Greedy
-|  |
-| ------- |
-| [0435-non-overlapping-intervals](https://github.com/afasari/leetcode-solution/tree/master/0435-non-overlapping-intervals) |
-## Database
-|  |
-| ------- |
-| [0584-find-customer-referee](https://github.com/afasari/leetcode-solution/tree/master/0584-find-customer-referee) |
-| [0595-big-countries](https://github.com/afasari/leetcode-solution/tree/master/0595-big-countries) |
-| [1153-product-sales-analysis-i](https://github.com/afasari/leetcode-solution/tree/master/1153-product-sales-analysis-i) |
-| [1258-article-views-i](https://github.com/afasari/leetcode-solution/tree/master/1258-article-views-i) |
-| [1509-replace-employee-id-with-the-unique-identifier](https://github.com/afasari/leetcode-solution/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
-| [1827-invalid-tweets](https://github.com/afasari/leetcode-solution/tree/master/1827-invalid-tweets) |
-| [1908-recyclable-and-low-fat-products](https://github.com/afasari/leetcode-solution/tree/master/1908-recyclable-and-low-fat-products) |
-<!---LeetCode Topics End-->
