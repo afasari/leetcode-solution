@@ -118,3 +118,11 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Database
+|  |
+| ------- |
+| [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/afasari/leetcode-solution/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
+<!---LeetCode Topics End-->
