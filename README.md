@@ -138,4 +138,16 @@ python3 readme-generator.py
 |  |
 | ------- |
 | [0649-dota2-senate](https://github.com/afasari/leetcode-solution/tree/master/0649-dota2-senate) |
+## Array
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/afasari/leetcode-solution/tree/master/0088-merge-sorted-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/afasari/leetcode-solution/tree/master/0088-merge-sorted-array) |
+## Sorting
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/afasari/leetcode-solution/tree/master/0088-merge-sorted-array) |
 <!---LeetCode Topics End-->
