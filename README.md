@@ -126,4 +126,16 @@ python3 readme-generator.py
 | ------- |
 | [0197-rising-temperature](https://github.com/afasari/leetcode-solution/tree/master/0197-rising-temperature) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/afasari/leetcode-solution/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
+## String
+|  |
+| ------- |
+| [0649-dota2-senate](https://github.com/afasari/leetcode-solution/tree/master/0649-dota2-senate) |
+## Greedy
+|  |
+| ------- |
+| [0649-dota2-senate](https://github.com/afasari/leetcode-solution/tree/master/0649-dota2-senate) |
+## Queue
+|  |
+| ------- |
+| [0649-dota2-senate](https://github.com/afasari/leetcode-solution/tree/master/0649-dota2-senate) |
 <!---LeetCode Topics End-->
