@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 96
+Problem totals: 101
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript | SQL |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -35,8 +35,8 @@ Problem totals: 96
 |0023|[merge k sorted lists](0023-merge-k-sorted-lists/README.md)|[Hard](https://leetcode.com/problems/merge-k-sorted-lists/)|-|-|[go](./0023-merge-k-sorted-lists/0023-merge-k-sorted-lists.go)|-|-|-|-|-|
 |0024|[swap nodes in pairs](0024-swap-nodes-in-pairs/README.md)|[Medium](https://leetcode.com/problems/swap-nodes-in-pairs/)|-|-|[go](./0024-swap-nodes-in-pairs/0024-swap-nodes-in-pairs.go)|-|-|-|-|-|
 |0025|[reverse nodes in k group](0025-reverse-nodes-in-k-group/README.md)|[Hard](https://leetcode.com/problems/reverse-nodes-in-k-group/)|-|-|[go](./0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.go)|-|-|-|-|-|
-|0026|[remove duplicates from sorted array](0026-remove-duplicates-from-sorted-array/README.md)|[Easy](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|-|-|[go](./0026-remove-duplicates-from-sorted-array/0026-remove-duplicates-from-sorted-array.go)|-|-|-|-|-|
-|0027|[remove element](0027-remove-element/README.md)|[Easy](https://leetcode.com/problems/remove-element/)|-|-|[go](./0027-remove-element/0027-remove-element.go)|-|-|-|-|-|
+|0026|[remove duplicates from sorted array](0026-remove-duplicates-from-sorted-array/README.md)|[Easy](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|-|-|[go](./0026-remove-duplicates-from-sorted-array/0026-remove-duplicates-from-sorted-array.go)|-|-|-|-|-|
+|0027|[remove element](0027-remove-element/README.md)|[Easy](https://leetcode.com/problems/remove-element)|-|-|[go](./0027-remove-element/0027-remove-element.go)|-|-|-|-|-|
 |0028|[find the index of the first occurrence in a string](0028-find-the-index-of-the-first-occurrence-in-a-string/README.md)|[Easy](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)|-|-|[go](./0028-find-the-index-of-the-first-occurrence-in-a-string/0028-find-the-index-of-the-first-occurrence-in-a-string.go)|[php](./0028-find-the-index-of-the-first-occurrence-in-a-string/0028-find-the-index-of-the-first-occurrence-in-a-string.php)|[rust](./0028-find-the-index-of-the-first-occurrence-in-a-string/0028-find-the-index-of-the-first-occurrence-in-a-string.rs)|-|-|-|
 |0029|[divide two integers](0029-divide-two-integers/README.md)|[Medium](https://leetcode.com/problems/divide-two-integers/)|-|-|[go](./0029-divide-two-integers/0029-divide-two-integers.go)|-|-|-|-|-|
 |0031|[next permutation](0031-next-permutation/README.md)|[Medium](https://leetcode.com/problems/next-permutation/)|-|-|[go](./0031-next-permutation/0031-next-permutation.go)|-|-|-|-|-|
@@ -50,10 +50,12 @@ Problem totals: 96
 |0067|[add binary](0067-add-binary/README.md)|[Easy](https://leetcode.com/problems/add-binary/)|-|-|[go](./0067-add-binary/0067-add-binary.go)|-|-|-|-|-|
 |0069|[sqrtx](0069-sqrtx/README.md)|[Easy](https://leetcode.com/problems/sqrtx/)|-|-|[go](./0069-sqrtx/0069-sqrtx.go)|-|-|-|-|-|
 |0070|[climbing stairs](0070-climbing-stairs/README.md)|[Easy](https://leetcode.com/problems/climbing-stairs/)|-|-|[go](./0070-climbing-stairs/0070-climbing-stairs.go)|-|[rust](./0070-climbing-stairs/0070-climbing-stairs.rs)|-|-|-|
+|0080|[remove duplicates from sorted array ii](0080-remove-duplicates-from-sorted-array-ii/README.md)|[Medium](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)|-|-|[go](./0080-remove-duplicates-from-sorted-array-ii/0080-remove-duplicates-from-sorted-array-ii.go)|-|-|-|-|-|
 |0083|[remove duplicates from sorted list](0083-remove-duplicates-from-sorted-list/README.md)|[Easy](https://leetcode.com/problems/remove-duplicates-from-sorted-list)|-|-|[go](./0083-remove-duplicates-from-sorted-list/0083-remove-duplicates-from-sorted-list.go)|-|-|[javascript](./0083-remove-duplicates-from-sorted-list/0083-remove-duplicates-from-sorted-list.js)|-|-|
-|0088|[merge sorted array](0088-merge-sorted-array/README.md)|[Easy](https://leetcode.com/problems/merge-sorted-array/)|-|-|[go](./0088-merge-sorted-array/0088-merge-sorted-array.go)|-|-|-|-|-|
+|0088|[merge sorted array](0088-merge-sorted-array/README.md)|[Easy](https://leetcode.com/problems/merge-sorted-array)|-|-|[go](./0088-merge-sorted-array/0088-merge-sorted-array.go)|-|-|-|-|-|
 |0100|[same tree](0100-same-tree/README.md)|[Easy](https://leetcode.com/problems/same-tree)|-|[python3](./0100-same-tree/0100-same-tree.py)|[go](./0100-same-tree/0100-same-tree.go)|-|-|-|-|-|
 |0104|[maximum depth of binary tree](0104-maximum-depth-of-binary-tree/README.md)|[Easy](https://leetcode.com/problems/maximum-depth-of-binary-tree)|-|-|[go](./0104-maximum-depth-of-binary-tree/0104-maximum-depth-of-binary-tree.go)|-|-|-|-|-|
+|0110|[balanced binary tree](0110-balanced-binary-tree/README.md)|[Easy](https://leetcode.com/problems/balanced-binary-tree)|-|-|[go](./0110-balanced-binary-tree/0110-balanced-binary-tree.go)|-|-|-|-|-|
 |0118|[pascals triangle](0118-pascals-triangle/README.md)|[Easy](https://leetcode.com/problems/pascals-triangle/)|-|-|[go](./0118-pascals-triangle/0118-pascals-triangle.go)|-|-|-|-|-|
 |0119|[pascals triangle ii](0119-pascals-triangle-ii/README.md)|[Easy](https://leetcode.com/problems/pascals-triangle-ii/)|-|-|[go](./0119-pascals-triangle-ii/0119-pascals-triangle-ii.go)|-|-|-|-|-|
 |0121|[best time to buy and sell stock](0121-best-time-to-buy-and-sell-stock/README.md)|[Easy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|-|-|[go](./0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.go)|-|-|-|-|-|
@@ -63,6 +65,7 @@ Problem totals: 96
 |0137|[single number ii](0137-single-number-ii/README.md)|[Medium](https://leetcode.com/problems/single-number-ii)|-|-|[go](./0137-single-number-ii/0137-single-number-ii.go)|-|-|-|-|-|
 |0151|[reverse words in a string](0151-reverse-words-in-a-string/README.md)|[Medium](https://leetcode.com/problems/reverse-words-in-a-string/?envType=study-plan-v2&envId=leetcode-75)|-|-|[go](./0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.go)|-|-|-|-|-|
 |0167|[two sum ii input array is sorted](0167-two-sum-ii-input-array-is-sorted/README.md)|[Medium](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|-|-|[go](./0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.go)|-|-|-|-|-|
+|0197|[rising temperature](0197-rising-temperature/README.md)|[Easy](https://leetcode.com/problems/rising-temperature)|-|-|-|-|-|-|-|[sql](./0197-rising-temperature/0197-rising-temperature.sql)|
 |0206|[reverse linked list](0206-reverse-linked-list/README.md)|[Easy](https://leetcode.com/problems/reverse-linked-list)|-|-|[go](./0206-reverse-linked-list/0206-reverse-linked-list.go)|-|-|-|-|-|
 |0217|[contains duplicate](0217-contains-duplicate/README.md)|[Easy](https://leetcode.com/problems/contains-duplicate)|-|[python3](./0217-contains-duplicate/0217-contains-duplicate.py)|[go](./0217-contains-duplicate/0217-contains-duplicate.go)|[php](./0217-contains-duplicate/0217-contains-duplicate.php)|[rust](./0217-contains-duplicate/0217-contains-duplicate.rs)|[javascript](./0217-contains-duplicate/0217-contains-duplicate.js)|[typescript](./0217-contains-duplicate/0217-contains-duplicate.ts)|-|
 |0238|[product of array except self](0238-product-of-array-except-self/README.md)|[Medium](https://leetcode.com/problems/product-of-array-except-self)|-|-|[go](./0238-product-of-array-except-self/0238-product-of-array-except-self.go)|-|-|-|-|-|
@@ -82,6 +85,7 @@ Problem totals: 96
 |0595|[big countries](0595-big-countries/README.md)|[Easy](https://leetcode.com/problems/big-countries)|-|-|-|-|-|-|-|[sql](./0595-big-countries/0595-big-countries.sql)|
 |0605|[can place flowers](0605-can-place-flowers/README.md)|[Easy](https://leetcode.com/problems/can-place-flowers/)|-|-|[go](./0605-can-place-flowers/0605-can-place-flowers.go)|-|-|-|-|-|
 |0643|[maximum average subarray i](0643-maximum-average-subarray-i/README.md)|[Easy](https://leetcode.com/problems/maximum-average-subarray-i)|-|-|[go](./0643-maximum-average-subarray-i/0643-maximum-average-subarray-i.go)|-|-|-|-|-|
+|0649|[dota2 senate](0649-dota2-senate/README.md)|[Medium](https://leetcode.com/problems/dota2-senate)|-|-|[go](./0649-dota2-senate/0649-dota2-senate.go)|-|-|-|-|-|
 |0724|[find pivot index](0724-find-pivot-index/README.md)|[Easy](https://leetcode.com/problems/find-pivot-index)|-|-|[go](./0724-find-pivot-index/0724-find-pivot-index.go)|-|-|-|-|-|
 |0735|[asteroid collision](0735-asteroid-collision/README.md)|[Medium](https://leetcode.com/problems/asteroid-collision)|-|-|[go](./0735-asteroid-collision/0735-asteroid-collision.go)|-|-|-|-|-|
 |0783|[search in a binary search tree](0783-search-in-a-binary-search-tree/README.md)|[Easy](https://leetcode.com/problems/search-in-a-binary-search-tree)|-|-|[go](./0783-search-in-a-binary-search-tree/0783-search-in-a-binary-search-tree.go)|-|-|-|-|-|
@@ -98,6 +102,7 @@ Problem totals: 96
 |1509|[replace employee id with the unique identifier](1509-replace-employee-id-with-the-unique-identifier/README.md)|[Easy](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier)|-|-|-|-|-|-|-|[sql](./1509-replace-employee-id-with-the-unique-identifier/1509-replace-employee-id-with-the-unique-identifier.sql)|
 |1567|[maximum number of vowels in a substring of given length](1567-maximum-number-of-vowels-in-a-substring-of-given-length/README.md)|[Medium](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)|-|-|[go](./1567-maximum-number-of-vowels-in-a-substring-of-given-length/1567-maximum-number-of-vowels-in-a-substring-of-given-length.go)|-|-|-|-|-|
 |1586|[longest subarray of 1s after deleting one element](1586-longest-subarray-of-1s-after-deleting-one-element/README.md)|[Medium](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)|-|-|[go](./1586-longest-subarray-of-1s-after-deleting-one-element/1586-longest-subarray-of-1s-after-deleting-one-element.go)|-|-|-|-|-|
+|1724|[customer who visited but did not make any transactions](1724-customer-who-visited-but-did-not-make-any-transactions/README.md)|[Easy](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions)|-|-|-|-|-|-|-|[sql](./1724-customer-who-visited-but-did-not-make-any-transactions/1724-customer-who-visited-but-did-not-make-any-transactions.sql)|
 |1768|[merge strings alternately](1768-merge-strings-alternately/README.md)|[Easy](https://leetcode.com/problems/merge-strings-alternately/)|-|-|[go](./1768-merge-strings-alternately/1768-merge-strings-alternately.go)|-|-|-|-|-|
 |1777|[determine if two strings are close](1777-determine-if-two-strings-are-close/README.md)|[Medium](https://leetcode.com/problems/determine-if-two-strings-are-close)|-|-|[go](./1777-determine-if-two-strings-are-close/1777-determine-if-two-strings-are-close.go)|-|-|-|-|-|
 |1798|[max number of k sum pairs](1798-max-number-of-k-sum-pairs/README.md)|[Medium](https://leetcode.com/problems/max-number-of-k-sum-pairs)|-|-|[go](./1798-max-number-of-k-sum-pairs/1798-max-number-of-k-sum-pairs.go)|-|-|-|-|-|
@@ -118,54 +123,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Database
-|  |
-| ------- |
-| [0197-rising-temperature](https://github.com/afasari/leetcode-solution/tree/master/0197-rising-temperature) |
-| [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/afasari/leetcode-solution/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
-## String
-|  |
-| ------- |
-| [0649-dota2-senate](https://github.com/afasari/leetcode-solution/tree/master/0649-dota2-senate) |
-## Greedy
-|  |
-| ------- |
-| [0649-dota2-senate](https://github.com/afasari/leetcode-solution/tree/master/0649-dota2-senate) |
-## Queue
-|  |
-| ------- |
-| [0649-dota2-senate](https://github.com/afasari/leetcode-solution/tree/master/0649-dota2-senate) |
-## Array
-|  |
-| ------- |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/afasari/leetcode-solution/tree/master/0026-remove-duplicates-from-sorted-array) |
-| [0027-remove-element](https://github.com/afasari/leetcode-solution/tree/master/0027-remove-element) |
-| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/afasari/leetcode-solution/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
-| [0088-merge-sorted-array](https://github.com/afasari/leetcode-solution/tree/master/0088-merge-sorted-array) |
-## Two Pointers
-|  |
-| ------- |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/afasari/leetcode-solution/tree/master/0026-remove-duplicates-from-sorted-array) |
-| [0027-remove-element](https://github.com/afasari/leetcode-solution/tree/master/0027-remove-element) |
-| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/afasari/leetcode-solution/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
-| [0088-merge-sorted-array](https://github.com/afasari/leetcode-solution/tree/master/0088-merge-sorted-array) |
-## Sorting
-|  |
-| ------- |
-| [0088-merge-sorted-array](https://github.com/afasari/leetcode-solution/tree/master/0088-merge-sorted-array) |
-## Tree
-|  |
-| ------- |
-| [0110-balanced-binary-tree](https://github.com/afasari/leetcode-solution/tree/master/0110-balanced-binary-tree) |
-## Depth-First Search
-|  |
-| ------- |
-| [0110-balanced-binary-tree](https://github.com/afasari/leetcode-solution/tree/master/0110-balanced-binary-tree) |
-## Binary Tree
-|  |
-| ------- |
-| [0110-balanced-binary-tree](https://github.com/afasari/leetcode-solution/tree/master/0110-balanced-binary-tree) |
-<!---LeetCode Topics End-->
