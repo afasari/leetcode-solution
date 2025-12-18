@@ -124,15 +124,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Two Pointers
-|  |
-| ------- |
-| [1768-merge-strings-alternately](https://github.com/afasari/leetcode-solution/tree/master/1768-merge-strings-alternately) |
-## String
-|  |
-| ------- |
-| [1768-merge-strings-alternately](https://github.com/afasari/leetcode-solution/tree/master/1768-merge-strings-alternately) |
-<!---LeetCode Topics End-->
