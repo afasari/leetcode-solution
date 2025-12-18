@@ -6,11 +6,12 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 101
+Problem totals: 102
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript | SQL |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
-  |0001|[two sum](0001-two-sum/README.md)|[Easy](https://leetcode.com/problems/two-sum)|-|[python3](./0001-two-sum/0001-two-sum.py)|[go](./0001-two-sum/0001-two-sum.go)|[php](./0001-two-sum/0001-two-sum.php)|[rust](./0001-two-sum/0001-two-sum.rs)|[javascript](./0001-two-sum/0001-two-sum.js)|[typescript](./0001-two-sum/0001-two-sum.ts)|-|
+  |.gihub|[](.gihub/README.md)|Unknown|-|-|-|-|-|-|-|-|
+|0001|[two sum](0001-two-sum/README.md)|[Easy](https://leetcode.com/problems/two-sum)|-|[python3](./0001-two-sum/0001-two-sum.py)|[go](./0001-two-sum/0001-two-sum.go)|[php](./0001-two-sum/0001-two-sum.php)|[rust](./0001-two-sum/0001-two-sum.rs)|[javascript](./0001-two-sum/0001-two-sum.js)|[typescript](./0001-two-sum/0001-two-sum.ts)|-|
 |0002|[add two numbers](0002-add-two-numbers/README.md)|[Medium](https://leetcode.com/problems/add-two-numbers/)|-|-|[go](./0002-add-two-numbers/0002-add-two-numbers.go)|[php](./0002-add-two-numbers/0002-add-two-numbers.php)|-|-|-|-|
 |0003|[longest substring without repeating characters](0003-longest-substring-without-repeating-characters/README.md)|[Medium](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|-|-|[go](./0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.go)|[php](./0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.php)|-|-|-|-|
 |0004|[median of two sorted arrays](0004-median-of-two-sorted-arrays/README.md)|[Hard](https://leetcode.com/problems/median-of-two-sorted-arrays/)|-|-|[go](./0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.go)|[php](./0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.php)|-|-|-|-|
@@ -103,7 +104,7 @@ Problem totals: 101
 |1567|[maximum number of vowels in a substring of given length](1567-maximum-number-of-vowels-in-a-substring-of-given-length/README.md)|[Medium](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)|-|-|[go](./1567-maximum-number-of-vowels-in-a-substring-of-given-length/1567-maximum-number-of-vowels-in-a-substring-of-given-length.go)|-|-|-|-|-|
 |1586|[longest subarray of 1s after deleting one element](1586-longest-subarray-of-1s-after-deleting-one-element/README.md)|[Medium](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)|-|-|[go](./1586-longest-subarray-of-1s-after-deleting-one-element/1586-longest-subarray-of-1s-after-deleting-one-element.go)|-|-|-|-|-|
 |1724|[customer who visited but did not make any transactions](1724-customer-who-visited-but-did-not-make-any-transactions/README.md)|[Easy](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions)|-|-|-|-|-|-|-|[sql](./1724-customer-who-visited-but-did-not-make-any-transactions/1724-customer-who-visited-but-did-not-make-any-transactions.sql)|
-|1768|[merge strings alternately](1768-merge-strings-alternately/README.md)|[Easy](https://leetcode.com/problems/merge-strings-alternately/)|-|-|[go](./1768-merge-strings-alternately/1768-merge-strings-alternately.go)|-|-|-|-|-|
+|1768|[merge strings alternately](1768-merge-strings-alternately/README.md)|[Easy](https://leetcode.com/problems/merge-strings-alternately)|-|-|[go](./1768-merge-strings-alternately/1768-merge-strings-alternately.go)|-|-|-|-|-|
 |1777|[determine if two strings are close](1777-determine-if-two-strings-are-close/README.md)|[Medium](https://leetcode.com/problems/determine-if-two-strings-are-close)|-|-|[go](./1777-determine-if-two-strings-are-close/1777-determine-if-two-strings-are-close.go)|-|-|-|-|-|
 |1798|[max number of k sum pairs](1798-max-number-of-k-sum-pairs/README.md)|[Medium](https://leetcode.com/problems/max-number-of-k-sum-pairs)|-|-|[go](./1798-max-number-of-k-sum-pairs/1798-max-number-of-k-sum-pairs.go)|-|-|-|-|-|
 |1827|[invalid tweets](1827-invalid-tweets/README.md)|[Easy](https://leetcode.com/problems/invalid-tweets)|-|-|-|-|-|-|-|[sql](./1827-invalid-tweets/1827-invalid-tweets.sql)|
@@ -123,15 +124,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Two Pointers
-|  |
-| ------- |
-| [1768-merge-strings-alternately](https://github.com/afasari/leetcode-solution/tree/master/1768-merge-strings-alternately) |
-## String
-|  |
-| ------- |
-| [1768-merge-strings-alternately](https://github.com/afasari/leetcode-solution/tree/master/1768-merge-strings-alternately) |
-<!---LeetCode Topics End-->
