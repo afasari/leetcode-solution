@@ -104,7 +104,7 @@ Problem totals: 102
 |1567|[maximum number of vowels in a substring of given length](1567-maximum-number-of-vowels-in-a-substring-of-given-length/README.md)|[Medium](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)|-|-|[go](./1567-maximum-number-of-vowels-in-a-substring-of-given-length/1567-maximum-number-of-vowels-in-a-substring-of-given-length.go)|-|-|-|-|-|
 |1586|[longest subarray of 1s after deleting one element](1586-longest-subarray-of-1s-after-deleting-one-element/README.md)|[Medium](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)|-|-|[go](./1586-longest-subarray-of-1s-after-deleting-one-element/1586-longest-subarray-of-1s-after-deleting-one-element.go)|-|-|-|-|-|
 |1724|[customer who visited but did not make any transactions](1724-customer-who-visited-but-did-not-make-any-transactions/README.md)|[Easy](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions)|-|-|-|-|-|-|-|[sql](./1724-customer-who-visited-but-did-not-make-any-transactions/1724-customer-who-visited-but-did-not-make-any-transactions.sql)|
-|1768|[merge strings alternately](1768-merge-strings-alternately/README.md)|[Easy](https://leetcode.com/problems/merge-strings-alternately)|-|-|[go](./1768-merge-strings-alternately/1768-merge-strings-alternately.go)|-|-|-|-|-|
+|1768|[merge strings alternately](1768-merge-strings-alternately/README.md)|[Easy](https://leetcode.com/problems/merge-strings-alternately)|-|-|[go](./1768-merge-strings-alternately/1768-merge-strings-alternately.go)|-|[rust](./1768-merge-strings-alternately/1768-merge-strings-alternately.rs)|-|-|-|
 |1777|[determine if two strings are close](1777-determine-if-two-strings-are-close/README.md)|[Medium](https://leetcode.com/problems/determine-if-two-strings-are-close)|-|-|[go](./1777-determine-if-two-strings-are-close/1777-determine-if-two-strings-are-close.go)|-|-|-|-|-|
 |1798|[max number of k sum pairs](1798-max-number-of-k-sum-pairs/README.md)|[Medium](https://leetcode.com/problems/max-number-of-k-sum-pairs)|-|-|[go](./1798-max-number-of-k-sum-pairs/1798-max-number-of-k-sum-pairs.go)|-|-|-|-|-|
 |1827|[invalid tweets](1827-invalid-tweets/README.md)|[Easy](https://leetcode.com/problems/invalid-tweets)|-|-|-|-|-|-|-|[sql](./1827-invalid-tweets/1827-invalid-tweets.sql)|
@@ -124,15 +124,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Two Pointers
-|  |
-| ------- |
-| [1768-merge-strings-alternately](https://github.com/afasari/leetcode-solution/tree/master/1768-merge-strings-alternately) |
-## String
-|  |
-| ------- |
-| [1768-merge-strings-alternately](https://github.com/afasari/leetcode-solution/tree/master/1768-merge-strings-alternately) |
-<!---LeetCode Topics End-->
