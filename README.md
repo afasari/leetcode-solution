@@ -125,3 +125,11 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1470-shuffle-the-array](https://github.com/afasari/leetcode-solution/tree/master/1470-shuffle-the-array) |
+<!---LeetCode Topics End-->
