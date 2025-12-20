@@ -126,3 +126,11 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0485-max-consecutive-ones](https://github.com/afasari/leetcode-solution/tree/master/0485-max-consecutive-ones) |
+<!---LeetCode Topics End-->
