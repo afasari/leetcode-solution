@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 103
+Problem totals: 104
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript | SQL |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -100,6 +100,7 @@ Problem totals: 103
 |1319|[unique number of occurrences](1319-unique-number-of-occurrences/README.md)|[Easy](https://leetcode.com/problems/unique-number-of-occurrences)|-|-|[go](./1319-unique-number-of-occurrences/1319-unique-number-of-occurrences.go)|-|-|-|-|-|
 |1392|[find the difference of two arrays](1392-find-the-difference-of-two-arrays/README.md)|[Easy](https://leetcode.com/problems/find-the-difference-of-two-arrays/?envType=study-plan-v2&envId=leetcode-75)|-|-|[go](./1392-find-the-difference-of-two-arrays/1392-find-the-difference-of-two-arrays.go)|-|-|-|-|-|
 |1431|[kids with the greatest number of candies](1431-kids-with-the-greatest-number-of-candies/README.md)|[Easy](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|-|-|[go](./1431-kids-with-the-greatest-number-of-candies/1431-kids-with-the-greatest-number-of-candies.go)|-|-|-|-|-|
+|1470|[shuffle the array](1470-shuffle-the-array/README.md)|[Easy](https://leetcode.com/problems/shuffle-the-array)|-|-|[go](./1470-shuffle-the-array/1470-shuffle-the-array.go)|-|-|-|-|-|
 |1509|[replace employee id with the unique identifier](1509-replace-employee-id-with-the-unique-identifier/README.md)|[Easy](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier)|-|-|-|-|-|-|-|[sql](./1509-replace-employee-id-with-the-unique-identifier/1509-replace-employee-id-with-the-unique-identifier.sql)|
 |1567|[maximum number of vowels in a substring of given length](1567-maximum-number-of-vowels-in-a-substring-of-given-length/README.md)|[Medium](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)|-|-|[go](./1567-maximum-number-of-vowels-in-a-substring-of-given-length/1567-maximum-number-of-vowels-in-a-substring-of-given-length.go)|-|-|-|-|-|
 |1586|[longest subarray of 1s after deleting one element](1586-longest-subarray-of-1s-after-deleting-one-element/README.md)|[Medium](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)|-|-|[go](./1586-longest-subarray-of-1s-after-deleting-one-element/1586-longest-subarray-of-1s-after-deleting-one-element.go)|-|-|-|-|-|
@@ -125,11 +126,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [1470-shuffle-the-array](https://github.com/afasari/leetcode-solution/tree/master/1470-shuffle-the-array) |
-<!---LeetCode Topics End-->
