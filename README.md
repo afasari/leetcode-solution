@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 102
+Problem totals: 103
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript | SQL |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -110,6 +110,7 @@ Problem totals: 102
 |1827|[invalid tweets](1827-invalid-tweets/README.md)|[Easy](https://leetcode.com/problems/invalid-tweets)|-|-|-|-|-|-|-|[sql](./1827-invalid-tweets/1827-invalid-tweets.sql)|
 |1833|[find the highest altitude](1833-find-the-highest-altitude/README.md)|[Easy](https://leetcode.com/problems/find-the-highest-altitude)|-|-|[go](./1833-find-the-highest-altitude/1833-find-the-highest-altitude.go)|-|-|-|-|-|
 |1908|[recyclable and low fat products](1908-recyclable-and-low-fat-products/README.md)|[Easy](https://leetcode.com/problems/recyclable-and-low-fat-products)|-|-|-|-|-|-|-|[sql](./1908-recyclable-and-low-fat-products/1908-recyclable-and-low-fat-products.sql)|
+|1929|[concatenation of array](1929-concatenation-of-array/README.md)|[Easy](https://leetcode.com/problems/concatenation-of-array)|-|-|[go](./1929-concatenation-of-array/1929-concatenation-of-array.go)|-|-|-|-|-|
 |2428|[equal row and column pairs](2428-equal-row-and-column-pairs/README.md)|[Medium](https://leetcode.com/problems/equal-row-and-column-pairs)|-|-|[go](./2428-equal-row-and-column-pairs/2428-equal-row-and-column-pairs.go)|-|-|-|-|-|
 |2470|[removing stars from a string](2470-removing-stars-from-a-string/README.md)|[Medium](https://leetcode.com/problems/removing-stars-from-a-string)|-|-|[go](./2470-removing-stars-from-a-string/2470-removing-stars-from-a-string.go)|-|-|-|-|-|
 
@@ -124,15 +125,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [1929-concatenation-of-array](https://github.com/afasari/leetcode-solution/tree/master/1929-concatenation-of-array) |
-## Simulation
-|  |
-| ------- |
-| [1929-concatenation-of-array](https://github.com/afasari/leetcode-solution/tree/master/1929-concatenation-of-array) |
-<!---LeetCode Topics End-->
