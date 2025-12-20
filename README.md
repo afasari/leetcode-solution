@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 104
+Problem totals: 105
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript | SQL |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -82,6 +82,7 @@ Problem totals: 104
 |0394|[decode string](0394-decode-string/README.md)|[Medium](https://leetcode.com/problems/decode-string)|-|-|[go](./0394-decode-string/0394-decode-string.go)|-|-|-|-|-|
 |0435|[non overlapping intervals](0435-non-overlapping-intervals/README.md)|[Medium](https://leetcode.com/problems/non-overlapping-intervals)|-|-|[go](./0435-non-overlapping-intervals/0435-non-overlapping-intervals.go)|-|-|-|-|-|
 |0443|[string compression](0443-string-compression/README.md)|[Medium](https://leetcode.com/problems/string-compression)|-|-|[go](./0443-string-compression/0443-string-compression.go)|-|-|-|-|-|
+|0485|[max consecutive ones](0485-max-consecutive-ones/README.md)|[Easy](https://leetcode.com/problems/max-consecutive-ones)|-|-|[go](./0485-max-consecutive-ones/0485-max-consecutive-ones.go)|-|-|-|-|-|
 |0584|[find customer referee](0584-find-customer-referee/README.md)|[Easy](https://leetcode.com/problems/find-customer-referee)|-|-|-|-|-|-|-|[sql](./0584-find-customer-referee/0584-find-customer-referee.sql)|
 |0595|[big countries](0595-big-countries/README.md)|[Easy](https://leetcode.com/problems/big-countries)|-|-|-|-|-|-|-|[sql](./0595-big-countries/0595-big-countries.sql)|
 |0605|[can place flowers](0605-can-place-flowers/README.md)|[Easy](https://leetcode.com/problems/can-place-flowers/)|-|-|[go](./0605-can-place-flowers/0605-can-place-flowers.go)|-|-|-|-|-|
@@ -126,11 +127,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0485-max-consecutive-ones](https://github.com/afasari/leetcode-solution/tree/master/0485-max-consecutive-ones) |
-<!---LeetCode Topics End-->
