@@ -127,3 +127,15 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1502-can-make-arithmetic-progression-from-sequence](https://github.com/afasari/leetcode-solution/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
+## Sorting
+|  |
+| ------- |
+| [1502-can-make-arithmetic-progression-from-sequence](https://github.com/afasari/leetcode-solution/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
+<!---LeetCode Topics End-->
