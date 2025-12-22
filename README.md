@@ -19,7 +19,7 @@ Problem totals: 107
 |0006|[zigzag conversion](0006-zigzag-conversion/README.md)|[Medium](https://leetcode.com/problems/zigzag-conversion/)|-|-|[go](./0006-zigzag-conversion/0006-zigzag-conversion.go)|[php](./0006-zigzag-conversion/0006-zigzag-conversion.php)|-|-|-|-|
 |0007|[reverse integer](0007-reverse-integer/README.md)|[Medium](https://leetcode.com/problems/reverse-integer/)|-|-|[go](./0007-reverse-integer/0007-reverse-integer.go)|[php](./0007-reverse-integer/0007-reverse-integer.php)|-|-|-|-|
 |0008|[string to integer atoi](0008-string-to-integer-atoi/README.md)|[Medium](https://leetcode.com/problems/string-to-integer-atoi/)|-|-|[go](./0008-string-to-integer-atoi/0008-string-to-integer-atoi.go)|[php](./0008-string-to-integer-atoi/0008-string-to-integer-atoi.php)|-|-|-|-|
-|0009|[palindrome number](0009-palindrome-number/README.md)|[Easy](https://leetcode.com/problems/palindrome-number/)|-|-|[go](./0009-palindrome-number/0009-palindrome-number.go)|[php](./0009-palindrome-number/0009-palindrome-number.php)|-|-|-|-|
+|0009|[palindrome number](0009-palindrome-number/README.md)|[Easy](https://leetcode.com/problems/palindrome-number)|-|-|[go](./0009-palindrome-number/0009-palindrome-number.go)|[php](./0009-palindrome-number/0009-palindrome-number.php)|-|-|-|-|
 |0010|[regular expression matching](0010-regular-expression-matching/README.md)|[Hard](https://leetcode.com/problems/regular-expression-matching/)|-|[python3](./0010-regular-expression-matching/0010-regular-expression-matching.py)|-|-|-|-|-|-|
 |0011|[container with most water](0011-container-with-most-water/README.md)|[Medium](https://leetcode.com/problems/container-with-most-water)|-|[python3](./0011-container-with-most-water/0011-container-with-most-water.py)|[go](./0011-container-with-most-water/0011-container-with-most-water.go)|[php](./0011-container-with-most-water/0011-container-with-most-water.php)|[rust](./0011-container-with-most-water/0011-container-with-most-water.rs)|-|-|-|
 |0012|[integer to roman](0012-integer-to-roman/README.md)|[Medium](https://leetcode.com/problems/integer-to-roman/)|-|-|[go](./0012-integer-to-roman/0012-integer-to-roman.go)|[php](./0012-integer-to-roman/0012-integer-to-roman.php)|[rust](./0012-integer-to-roman/0012-integer-to-roman.rs)|-|-|-|
@@ -129,11 +129,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [0009-palindrome-number](https://github.com/afasari/leetcode-solution/tree/master/0009-palindrome-number) |
-<!---LeetCode Topics End-->
