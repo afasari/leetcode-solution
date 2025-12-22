@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 106
+Problem totals: 107
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript | SQL |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -116,6 +116,7 @@ Problem totals: 106
 |1929|[concatenation of array](1929-concatenation-of-array/README.md)|[Easy](https://leetcode.com/problems/concatenation-of-array)|-|-|[go](./1929-concatenation-of-array/1929-concatenation-of-array.go)|-|-|-|-|-|
 |2428|[equal row and column pairs](2428-equal-row-and-column-pairs/README.md)|[Medium](https://leetcode.com/problems/equal-row-and-column-pairs)|-|-|[go](./2428-equal-row-and-column-pairs/2428-equal-row-and-column-pairs.go)|-|-|-|-|-|
 |2470|[removing stars from a string](2470-removing-stars-from-a-string/README.md)|[Medium](https://leetcode.com/problems/removing-stars-from-a-string)|-|-|[go](./2470-removing-stars-from-a-string/2470-removing-stars-from-a-string.go)|-|-|-|-|-|
+|2485|[find the pivot integer](2485-find-the-pivot-integer/README.md)|[Easy](https://leetcode.com/problems/find-the-pivot-integer)|-|-|[go](./2485-find-the-pivot-integer/2485-find-the-pivot-integer.go)|-|-|-|-|-|
 
 ## Readme Generator
 
@@ -128,15 +129,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [2485-find-the-pivot-integer](https://github.com/afasari/leetcode-solution/tree/master/2485-find-the-pivot-integer) |
-## Prefix Sum
-|  |
-| ------- |
-| [2485-find-the-pivot-integer](https://github.com/afasari/leetcode-solution/tree/master/2485-find-the-pivot-integer) |
-<!---LeetCode Topics End-->
