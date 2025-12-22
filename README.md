@@ -129,3 +129,11 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/afasari/leetcode-solution/tree/master/0009-palindrome-number) |
+<!---LeetCode Topics End-->
