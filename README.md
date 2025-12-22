@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 108
+Problem totals: 109
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript | SQL |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -87,6 +87,7 @@ Problem totals: 108
 |0584|[find customer referee](0584-find-customer-referee/README.md)|[Easy](https://leetcode.com/problems/find-customer-referee)|-|-|-|-|-|-|-|[sql](./0584-find-customer-referee/0584-find-customer-referee.sql)|
 |0595|[big countries](0595-big-countries/README.md)|[Easy](https://leetcode.com/problems/big-countries)|-|-|-|-|-|-|-|[sql](./0595-big-countries/0595-big-countries.sql)|
 |0605|[can place flowers](0605-can-place-flowers/README.md)|[Easy](https://leetcode.com/problems/can-place-flowers/)|-|-|[go](./0605-can-place-flowers/0605-can-place-flowers.go)|-|-|-|-|-|
+|0620|[not boring movies](0620-not-boring-movies/README.md)|[Easy](https://leetcode.com/problems/not-boring-movies)|-|-|-|-|-|-|-|[sql](./0620-not-boring-movies/0620-not-boring-movies.sql)|
 |0643|[maximum average subarray i](0643-maximum-average-subarray-i/README.md)|[Easy](https://leetcode.com/problems/maximum-average-subarray-i)|-|-|[go](./0643-maximum-average-subarray-i/0643-maximum-average-subarray-i.go)|-|-|-|-|-|
 |0649|[dota2 senate](0649-dota2-senate/README.md)|[Medium](https://leetcode.com/problems/dota2-senate)|-|-|[go](./0649-dota2-senate/0649-dota2-senate.go)|-|-|-|-|-|
 |0724|[find pivot index](0724-find-pivot-index/README.md)|[Easy](https://leetcode.com/problems/find-pivot-index)|-|-|[go](./0724-find-pivot-index/0724-find-pivot-index.go)|-|-|-|-|-|
@@ -130,11 +131,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Database
-|  |
-| ------- |
-| [0620-not-boring-movies](https://github.com/afasari/leetcode-solution/tree/master/0620-not-boring-movies) |
-<!---LeetCode Topics End-->
