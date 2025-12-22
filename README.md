@@ -132,3 +132,11 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Database
+|  |
+| ------- |
+| [0584-find-customer-referee](https://github.com/afasari/leetcode-solution/tree/master/0584-find-customer-referee) |
+<!---LeetCode Topics End-->
