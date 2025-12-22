@@ -131,3 +131,11 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/afasari/leetcode-solution/tree/master/0175-combine-two-tables) |
+<!---LeetCode Topics End-->
