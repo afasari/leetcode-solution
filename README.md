@@ -128,3 +128,15 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [2485-find-the-pivot-integer](https://github.com/afasari/leetcode-solution/tree/master/2485-find-the-pivot-integer) |
+## Prefix Sum
+|  |
+| ------- |
+| [2485-find-the-pivot-integer](https://github.com/afasari/leetcode-solution/tree/master/2485-find-the-pivot-integer) |
+<!---LeetCode Topics End-->
