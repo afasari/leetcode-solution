@@ -130,3 +130,11 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Database
+|  |
+| ------- |
+| [0620-not-boring-movies](https://github.com/afasari/leetcode-solution/tree/master/0620-not-boring-movies) |
+<!---LeetCode Topics End-->
