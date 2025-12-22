@@ -1,14 +1,20 @@
 func isPalindrome(x int) bool {
-    def := x
-    res := 0
-    for x > 0{
-        digit := x % 10
-        res = res * 10
-        res += digit
-        x /= 10
+    if x == 1 {
+        return true
     }
 
-fmt.Println(res, x)
-    return res == def
-    
+    if x < 0 {
+        return false
+    }
+    reversed := 0
+    temp := x
+
+    for temp != 0 {
+        reversed = (reversed * 10) + (temp % 10)
+        temp /= 10
+    }
+
+    // xs := strconv.Itoa(x)
+
+    return reversed == x
 }
