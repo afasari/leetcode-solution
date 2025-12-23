@@ -1,48 +1,76 @@
 func twoSum(nums []int, target int) []int {
-    // return onePassHash(nums, target)
-    // return bruteForce(nums, target)
-    return twoPassHash(nums, target)
-}
-
-func bruteForce(nums []int, target int) []int{
-    // time O(n2)
-    // space O(1)
-    for i:= 0; i < len(nums) - 1; i++{
-        for j :=1 ; j < len(nums);j++{
-            if i != j && nums[i] + nums[j] == target{
-                return []int{i, j}
-            }
-        }
-    }
-    return []int{}
-}
-
-func twoPassHash(nums []int, target int) []int{
-    // time O(n)
-    // space O(n)
-	indexMap := make(map[int]int)
-	for currIndex, currNum := range nums {
-        indexMap[currNum] = currIndex
-    }
+    /*
+    Brute Force
+    Time O(n^2)
+    Space O(1)
+    */
+    // for i := 0; i < len(nums); i++ {
+    //     for j := i + 1; j < len(nums); j++ {
+    //         if nums[i] + nums[j] == target {
+    //             return []int{i, j}
+    //         }
+    //     }
+    // }
+    // return []int{}
     
-    for i := 0; i < len(nums); i++{
-        complement := target - nums[i]
-        if idx, ok := indexMap[complement]; ok && idx != i{
-            return []int{i, idx}
+    /*
+    Sorting
+    Time O(n log n)
+    Space O(n)
+    */
+    // A := make([][2]int, len(nums))
+    // for i, num := range nums {
+    //     A[i] = [2]int{num, i}
+    // }
+
+    // sort.Slice(A, func(i, j int) bool {
+    //     return A[i][0] < A[j][0]
+    // })
+
+    // i, j := 0, len(nums)-1
+    // for i < j {
+    //     cur := A[i][0] + A[j][0]
+    //     if cur == target {
+    //         if A[i][1] < A[j][1] {
+    //             return []int{A[i][1], A[j][1]}
+    //         } else {
+    //             return []int{A[j][1], A[i][1]}
+    //         }
+    //     } else if cur < target {
+    //         i++
+    //     } else {
+    //         j--
+    //     }
+    // }
+    // return []int{}
+
+    /*
+    Hash Map
+    Time O(n)
+    Space O(n)
+    */
+    //     indices := make(map[int]int)
+
+    // for i, n := range nums {
+    //     indices[n] = i
+    // }
+
+    // for i, n := range nums {
+    //     diff := target - n
+    //     if j, found := indices[diff]; found && j != i {
+    //         return []int{i, j}
+    //     }
+    // }
+    // return []int{}
+
+    prevMap := make(map[int]int)
+
+    for i, n := range nums {
+        diff := target - n
+        if j, found := prevMap[diff]; found {
+            return []int{j, i}
         }
+        prevMap[n] = i
     }
     return []int{}
-}
-
-func onePassHash(nums []int, target int) []int{
-    // time O(n)
-    // space O(n)
-	indexMap := make(map[int]int)
-	for currIndex, currNum := range nums {
-		if requiredIdx, isPresent := indexMap[target-currNum]; isPresent {
-			return []int{requiredIdx, currIndex}
-		}
-		indexMap[currNum] = currIndex
-	}
-	return []int{}
 }
