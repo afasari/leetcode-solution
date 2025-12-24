@@ -7,7 +7,5 @@ func reverseBits(n int) int {
     }
 
     retInt, _ := strconv.ParseInt(ret, 2, 64)
-    fmt.Println(ret)
-    fmt.Println(retInt)
     return int(retInt)
 }
