@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 111
+Problem totals: 112
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript | SQL |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -68,6 +68,7 @@ Problem totals: 111
 |0167|[two sum ii input array is sorted](0167-two-sum-ii-input-array-is-sorted/README.md)|[Medium](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|-|-|[go](./0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.go)|-|-|-|-|-|
 |0175|[combine two tables](0175-combine-two-tables/README.md)|[Easy](https://leetcode.com/problems/combine-two-tables)|-|-|-|-|-|-|-|[sql](./0175-combine-two-tables/0175-combine-two-tables.sql)|
 |0181|[employees earning more than their managers](0181-employees-earning-more-than-their-managers/README.md)|[Easy](https://leetcode.com/problems/employees-earning-more-than-their-managers)|-|-|-|-|-|-|-|[sql](./0181-employees-earning-more-than-their-managers/0181-employees-earning-more-than-their-managers.sql)|
+|0190|[reverse bits](0190-reverse-bits/README.md)|[Easy](https://leetcode.com/problems/reverse-bits)|-|-|[go](./0190-reverse-bits/0190-reverse-bits.go)|-|-|-|-|-|
 |0197|[rising temperature](0197-rising-temperature/README.md)|[Easy](https://leetcode.com/problems/rising-temperature)|-|-|-|-|-|-|-|[sql](./0197-rising-temperature/0197-rising-temperature.sql)|
 |0206|[reverse linked list](0206-reverse-linked-list/README.md)|[Easy](https://leetcode.com/problems/reverse-linked-list)|-|-|[go](./0206-reverse-linked-list/0206-reverse-linked-list.go)|-|-|-|-|-|
 |0217|[contains duplicate](0217-contains-duplicate/README.md)|[Easy](https://leetcode.com/problems/contains-duplicate)|-|[python3](./0217-contains-duplicate/0217-contains-duplicate.py)|[go](./0217-contains-duplicate/0217-contains-duplicate.go)|[php](./0217-contains-duplicate/0217-contains-duplicate.php)|[rust](./0217-contains-duplicate/0217-contains-duplicate.rs)|[javascript](./0217-contains-duplicate/0217-contains-duplicate.js)|[typescript](./0217-contains-duplicate/0217-contains-duplicate.ts)|-|
@@ -133,15 +134,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Divide and Conquer
-|  |
-| ------- |
-| [0190-reverse-bits](https://github.com/afasari/leetcode-solution/tree/master/0190-reverse-bits) |
-## Bit Manipulation
-|  |
-| ------- |
-| [0190-reverse-bits](https://github.com/afasari/leetcode-solution/tree/master/0190-reverse-bits) |
-<!---LeetCode Topics End-->
