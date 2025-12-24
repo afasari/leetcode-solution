@@ -133,3 +133,15 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Divide and Conquer
+|  |
+| ------- |
+| [0190-reverse-bits](https://github.com/afasari/leetcode-solution/tree/master/0190-reverse-bits) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0190-reverse-bits](https://github.com/afasari/leetcode-solution/tree/master/0190-reverse-bits) |
+<!---LeetCode Topics End-->
