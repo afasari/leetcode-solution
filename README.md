@@ -96,7 +96,7 @@ Problem totals: 111
 |0783|[search in a binary search tree](0783-search-in-a-binary-search-tree/README.md)|[Easy](https://leetcode.com/problems/search-in-a-binary-search-tree)|-|-|[go](./0783-search-in-a-binary-search-tree/0783-search-in-a-binary-search-tree.go)|-|-|-|-|-|
 |0904|[leaf similar trees](0904-leaf-similar-trees/README.md)|[Easy](https://leetcode.com/problems/leaf-similar-trees)|-|-|[go](./0904-leaf-similar-trees/0904-leaf-similar-trees.go)|-|-|-|-|-|
 |0969|[number of recent calls](0969-number-of-recent-calls/README.md)|[Easy](https://leetcode.com/problems/number-of-recent-calls)|-|-|[go](./0969-number-of-recent-calls/0969-number-of-recent-calls.go)|-|-|-|-|-|
-|1046|[max consecutive ones iii](1046-max-consecutive-ones-iii/README.md)|[Medium](https://leetcode.com/problems/max-consecutive-ones-iii)|-|-|[go](./1046-max-consecutive-ones-iii/1046-max-consecutive-ones-iii.go)|-|-|-|-|-|
+|1046|[max consecutive ones iii](1046-max-consecutive-ones-iii/README.md)|[Medium](https://leetcode.com/problems/max-consecutive-ones-iii)|-|-|[go](./1046-last-stone-weight/1046-last-stone-weight.go)|-|-|-|-|-|
 |1071|[greatest common divisor of strings](1071-greatest-common-divisor-of-strings/README.md)|[Easy](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|-|-|[go](./1071-greatest-common-divisor-of-strings/1071-greatest-common-divisor-of-strings.go)|-|-|-|-|-|
 |1153|[product sales analysis i](1153-product-sales-analysis-i/README.md)|[Easy](https://leetcode.com/problems/product-sales-analysis-i)|-|-|-|-|-|-|-|[sql](./1153-product-sales-analysis-i/1153-product-sales-analysis-i.sql)|
 |1236|[n th tribonacci number](1236-n-th-tribonacci-number/README.md)|[Easy](https://leetcode.com/problems/n-th-tribonacci-number)|-|-|[go](./1236-n-th-tribonacci-number/1236-n-th-tribonacci-number.go)|-|-|-|-|-|
@@ -133,15 +133,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [1046-last-stone-weight](https://github.com/afasari/leetcode-solution/tree/master/1046-last-stone-weight) |
-## Heap (Priority Queue)
-|  |
-| ------- |
-| [1046-last-stone-weight](https://github.com/afasari/leetcode-solution/tree/master/1046-last-stone-weight) |
-<!---LeetCode Topics End-->
