@@ -133,3 +133,15 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1046-last-stone-weight](https://github.com/afasari/leetcode-solution/tree/master/1046-last-stone-weight) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1046-last-stone-weight](https://github.com/afasari/leetcode-solution/tree/master/1046-last-stone-weight) |
+<!---LeetCode Topics End-->
