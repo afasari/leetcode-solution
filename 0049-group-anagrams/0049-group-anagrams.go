@@ -1,20 +1,24 @@
 func groupAnagrams(strs []string) [][]string {
+    // 1. Map to group words by their character count signature
+    // Key: [26]int (count of each char a-z), Value: slice of original words
+    groups := make(map[[26]int][]string)
 
-    mapSortedStr := make(map[string][]string)
-
-
-    for _, str := range strs{
-        strSplit := strings.Split(str, "")
-        sort.Strings(strSplit)
-        sortedStr := strings.Join(strSplit, "")
-        mapSortedStr[sortedStr] = append(mapSortedStr[sortedStr], str)
+    for _, s := range strs {
+        // 2. Generate the "signature" for the current word
+        var count [26]int
+        for i := 0; i < len(s); i++ {
+            count[s[i]-'a']++
+        }
+        
+        // 3. Group words sharing the same signature
+        groups[count] = append(groups[count], s)
     }
 
-    var res [][]string
-
-    for _, val := range mapSortedStr {
-        res = append(res, val)
+    // 4. Collect all groups into a list of lists
+    result := make([][]string, 0, len(groups))
+    for _, group := range groups {
+        result = append(result, group)
     }
-
-    return res
+    
+    return result
 }
