@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 112
+Problem totals: 113
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript | SQL |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -93,6 +93,7 @@ Problem totals: 112
 |0643|[maximum average subarray i](0643-maximum-average-subarray-i/README.md)|[Easy](https://leetcode.com/problems/maximum-average-subarray-i)|-|-|[go](./0643-maximum-average-subarray-i/0643-maximum-average-subarray-i.go)|-|-|-|-|-|
 |0649|[dota2 senate](0649-dota2-senate/README.md)|[Medium](https://leetcode.com/problems/dota2-senate)|-|-|[go](./0649-dota2-senate/0649-dota2-senate.go)|-|-|-|-|-|
 |0724|[find pivot index](0724-find-pivot-index/README.md)|[Easy](https://leetcode.com/problems/find-pivot-index)|-|-|[go](./0724-find-pivot-index/0724-find-pivot-index.go)|-|-|-|-|-|
+|0728|[self dividing numbers](0728-self-dividing-numbers/README.md)|[Easy](https://leetcode.com/problems/self-dividing-numbers)|-|-|[go](./0728-self-dividing-numbers/0728-self-dividing-numbers.go)|-|-|-|-|-|
 |0735|[asteroid collision](0735-asteroid-collision/README.md)|[Medium](https://leetcode.com/problems/asteroid-collision)|-|-|[go](./0735-asteroid-collision/0735-asteroid-collision.go)|-|-|-|-|-|
 |0783|[search in a binary search tree](0783-search-in-a-binary-search-tree/README.md)|[Easy](https://leetcode.com/problems/search-in-a-binary-search-tree)|-|-|[go](./0783-search-in-a-binary-search-tree/0783-search-in-a-binary-search-tree.go)|-|-|-|-|-|
 |0904|[leaf similar trees](0904-leaf-similar-trees/README.md)|[Easy](https://leetcode.com/problems/leaf-similar-trees)|-|-|[go](./0904-leaf-similar-trees/0904-leaf-similar-trees.go)|-|-|-|-|-|
@@ -134,11 +135,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [0728-self-dividing-numbers](https://github.com/afasari/leetcode-solution/tree/master/0728-self-dividing-numbers) |
-<!---LeetCode Topics End-->
