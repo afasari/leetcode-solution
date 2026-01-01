@@ -134,3 +134,11 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [0728-self-dividing-numbers](https://github.com/afasari/leetcode-solution/tree/master/0728-self-dividing-numbers) |
+<!---LeetCode Topics End-->
