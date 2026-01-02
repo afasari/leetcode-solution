@@ -1,39 +1,34 @@
-func threeSum(nums []int) [][]int {
-	n := len(nums)
-
-	// Sort the given array
+func threeSum(nums []int) [][]int { // Returning [][]int
 	sort.Ints(nums)
+	res := [][]int{}
 
-	var result [][]int
-	for num1Idx := 0; num1Idx < n-2; num1Idx++ {
-		// Skip all duplicates from left
-		// num1Idx>0 ensures this check is made only from 2nd element onwards
-		if num1Idx > 0 && nums[num1Idx] == nums[num1Idx-1] {
+	for i := 0; i < len(nums)-2; i++ {
+		// 1. Skip duplicates for the first element
+		if i > 0 && nums[i] == nums[i-1] {
 			continue
 		}
 
-		num2Idx := num1Idx + 1
-		num3Idx := n - 1
-		for num2Idx < num3Idx {
-			sum := nums[num2Idx] + nums[num3Idx] + nums[num1Idx]
-			if sum == 0 {
-				// Add triplet to result
-				result = append(result, []int{nums[num1Idx], nums[num2Idx], nums[num3Idx]})
-
-				num3Idx--
-
-				// Skip all duplicates from right
-				for num2Idx < num3Idx && nums[num3Idx] == nums[num3Idx+1] {
-					num3Idx--
-				}
+		// 2. Standard Two-Pointer approach
+		l, r := i+1, len(nums)-1
+		for l < r {
+			sum := nums[i] + nums[l] + nums[r]
+			if sum < 0 {
+				l++
 			} else if sum > 0 {
-				// Decrement num3Idx to reduce sum value
-				num3Idx--
+				r--
 			} else {
-				// Increment num2Idx to increase sum value
-				num2Idx++
+				res = append(res, []int{nums[i], nums[l], nums[r]})
+				// 3. Skip duplicates for left and right pointers
+				for l < r && nums[l] == nums[l+1] {
+					l++
+				}
+				for l < r && nums[r] == nums[r-1] {
+					r--
+				}
+				l++
+				r--
 			}
 		}
 	}
-	return result
+	return res
 }
