@@ -1,25 +1,33 @@
 func trap(height []int) int {
-    var lmax, rmax, water, left int = 0, 0, 0, 0
-    var right int = len(height) -1;
+	if len(height) == 0 {
+		return 0
+	}
 
-    for left < right {
-        rmax = max(height[right], rmax);
-        lmax = max(height[left], lmax);
-        minH := min(lmax, rmax)
+	left, right := 0, len(height)-1
+	leftMax, rightMax := height[left], height[right]
+	totalWater := 0
 
-        if minH > height[left] {
-            water += minH - height[left]
-        }
-        if minH > height[right] {
-            water += minH - height[right]
-        }
+	for left < right {
+		// We can only trap water based on the shorter side
+		if leftMax < rightMax {
+			left++
+			// Update leftMax
+			if height[left] > leftMax {
+				leftMax = height[left]
+			} else {
+				// Trapped water = boundary - current height
+				totalWater += leftMax - height[left]
+			}
+		} else {
+			right--
+			// Update rightMax
+			if height[right] > rightMax {
+				rightMax = height[right]
+			} else {
+				totalWater += rightMax - height[right]
+			}
+		}
+	}
 
-        if height[left] <= height[right] {
-            left++;
-        } else {
-            right--;
-        }
-    }
-
-    return water
+	return totalWater
 }
