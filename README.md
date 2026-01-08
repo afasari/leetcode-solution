@@ -30,7 +30,7 @@ Problem totals: 113
 |0017|[letter combinations of a phone number](0017-letter-combinations-of-a-phone-number/README.md)|[Medium](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|-|-|[go](./0017-letter-combinations-of-a-phone-number/0017-letter-combinations-of-a-phone-number.go)|[php](./0017-letter-combinations-of-a-phone-number/0017-letter-combinations-of-a-phone-number.php)|-|-|-|-|
 |0018|[4sum](0018-4sum/README.md)|[Medium](https://leetcode.com/problems/4sum/)|-|-|[go](./0018-4sum/0018-4sum.go)|[php](./0018-4sum/0018-4sum.php)|-|-|-|-|
 |0019|[remove nth node from end of list](0019-remove-nth-node-from-end-of-list/README.md)|[Medium](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|-|-|[go](./0019-remove-nth-node-from-end-of-list/0019-remove-nth-node-from-end-of-list.go)|-|-|-|-|-|
-|0020|[valid parentheses](0020-valid-parentheses/README.md)|[Easy](https://leetcode.com/problems/valid-parentheses/)|-|-|[go](./0020-valid-parentheses/0020-valid-parentheses.go)|[php](./0020-valid-parentheses/0020-valid-parentheses.php)|-|-|-|-|
+|0020|[valid parentheses](0020-valid-parentheses/README.md)|[Easy](https://leetcode.com/problems/valid-parentheses)|-|-|[go](./0020-valid-parentheses/0020-valid-parentheses.go)|[php](./0020-valid-parentheses/0020-valid-parentheses.php)|-|-|-|-|
 |0021|[merge two sorted lists](0021-merge-two-sorted-lists/README.md)|[Easy](https://leetcode.com/problems/merge-two-sorted-lists/)|-|-|[go](./0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.go)|[php](./0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.php)|-|-|-|-|
 |0022|[generate parentheses](0022-generate-parentheses/README.md)|[Medium](https://leetcode.com/problems/generate-parentheses/)|-|-|[go](./0022-generate-parentheses/0022-generate-parentheses.go)|[php](./0022-generate-parentheses/0022-generate-parentheses.php)|-|-|-|-|
 |0023|[merge k sorted lists](0023-merge-k-sorted-lists/README.md)|[Hard](https://leetcode.com/problems/merge-k-sorted-lists/)|-|-|[go](./0023-merge-k-sorted-lists/0023-merge-k-sorted-lists.go)|-|-|-|-|-|
@@ -135,15 +135,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-|  |
-| ------- |
-| [0020-valid-parentheses](https://github.com/afasari/leetcode-solution/tree/master/0020-valid-parentheses) |
-## Stack
-|  |
-| ------- |
-| [0020-valid-parentheses](https://github.com/afasari/leetcode-solution/tree/master/0020-valid-parentheses) |
-<!---LeetCode Topics End-->
