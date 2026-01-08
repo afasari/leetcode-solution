@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 114
+Problem totals: 115
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript | SQL |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -64,6 +64,7 @@ Problem totals: 114
 |0128|[longest consecutive sequence](0128-longest-consecutive-sequence/README.md)|[Medium](https://leetcode.com/problems/longest-consecutive-sequence)|-|-|[go](./0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.go)|-|-|-|-|-|
 |0136|[single number](0136-single-number/README.md)|[Easy](https://leetcode.com/problems/single-number)|-|-|[go](./0136-single-number/0136-single-number.go)|-|-|-|-|-|
 |0137|[single number ii](0137-single-number-ii/README.md)|[Medium](https://leetcode.com/problems/single-number-ii)|-|-|[go](./0137-single-number-ii/0137-single-number-ii.go)|-|-|-|-|-|
+|0150|[evaluate reverse polish notation](0150-evaluate-reverse-polish-notation/README.md)|[Medium](https://leetcode.com/problems/evaluate-reverse-polish-notation)|-|-|[go](./0150-evaluate-reverse-polish-notation/0150-evaluate-reverse-polish-notation.go)|-|-|-|-|-|
 |0151|[reverse words in a string](0151-reverse-words-in-a-string/README.md)|[Medium](https://leetcode.com/problems/reverse-words-in-a-string/?envType=study-plan-v2&envId=leetcode-75)|-|-|[go](./0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.go)|-|-|-|-|-|
 |0155|[min stack](0155-min-stack/README.md)|[Medium](https://leetcode.com/problems/min-stack)|-|-|[go](./0155-min-stack/0155-min-stack.go)|-|-|-|-|-|
 |0167|[two sum ii input array is sorted](0167-two-sum-ii-input-array-is-sorted/README.md)|[Medium](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|-|-|[go](./0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.go)|-|-|-|-|-|
@@ -136,19 +137,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0150-evaluate-reverse-polish-notation](https://github.com/afasari/leetcode-solution/tree/master/0150-evaluate-reverse-polish-notation) |
-## Math
-|  |
-| ------- |
-| [0150-evaluate-reverse-polish-notation](https://github.com/afasari/leetcode-solution/tree/master/0150-evaluate-reverse-polish-notation) |
-## Stack
-|  |
-| ------- |
-| [0150-evaluate-reverse-polish-notation](https://github.com/afasari/leetcode-solution/tree/master/0150-evaluate-reverse-polish-notation) |
-<!---LeetCode Topics End-->
