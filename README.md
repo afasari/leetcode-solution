@@ -6,7 +6,7 @@ This repository records my solutions on LeetCode, written in **Go, PHP, Rust, Py
 
 🖥 This `README.md` is generated automatically.
 
-Problem totals: 115
+Problem totals: 116
 
   | ID   | Title | Difficulty | Java | Python3 | Golang | PHP | Rust | Javascript | Typescript | SQL |
   | :----: | :----- | :----- | :----: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -97,6 +97,7 @@ Problem totals: 115
 |0724|[find pivot index](0724-find-pivot-index/README.md)|[Easy](https://leetcode.com/problems/find-pivot-index)|-|-|[go](./0724-find-pivot-index/0724-find-pivot-index.go)|-|-|-|-|-|
 |0728|[self dividing numbers](0728-self-dividing-numbers/README.md)|[Easy](https://leetcode.com/problems/self-dividing-numbers)|-|-|[go](./0728-self-dividing-numbers/0728-self-dividing-numbers.go)|-|-|-|-|-|
 |0735|[asteroid collision](0735-asteroid-collision/README.md)|[Medium](https://leetcode.com/problems/asteroid-collision)|-|-|[go](./0735-asteroid-collision/0735-asteroid-collision.go)|-|-|-|-|-|
+|0739|[daily temperatures](0739-daily-temperatures/README.md)|[Medium](https://leetcode.com/problems/daily-temperatures)|-|-|[go](./0739-daily-temperatures/0739-daily-temperatures.go)|-|-|-|-|-|
 |0783|[search in a binary search tree](0783-search-in-a-binary-search-tree/README.md)|[Easy](https://leetcode.com/problems/search-in-a-binary-search-tree)|-|-|[go](./0783-search-in-a-binary-search-tree/0783-search-in-a-binary-search-tree.go)|-|-|-|-|-|
 |0904|[leaf similar trees](0904-leaf-similar-trees/README.md)|[Easy](https://leetcode.com/problems/leaf-similar-trees)|-|-|[go](./0904-leaf-similar-trees/0904-leaf-similar-trees.go)|-|-|-|-|-|
 |0969|[number of recent calls](0969-number-of-recent-calls/README.md)|[Easy](https://leetcode.com/problems/number-of-recent-calls)|-|-|[go](./0969-number-of-recent-calls/0969-number-of-recent-calls.go)|-|-|-|-|-|
@@ -137,19 +138,3 @@ python3 readme-generator.py
 ## Authors
 
 * **Ba'tiar Afas Rahmamulia**
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0739-daily-temperatures](https://github.com/afasari/leetcode-solution/tree/master/0739-daily-temperatures) |
-## Stack
-|  |
-| ------- |
-| [0739-daily-temperatures](https://github.com/afasari/leetcode-solution/tree/master/0739-daily-temperatures) |
-## Monotonic Stack
-|  |
-| ------- |
-| [0739-daily-temperatures](https://github.com/afasari/leetcode-solution/tree/master/0739-daily-temperatures) |
-<!---LeetCode Topics End-->
